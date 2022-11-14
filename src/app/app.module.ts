@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { InvoicesPage } from './pages/invoices/invoices.page';
 import { AuthModule } from './auth/auth.module';
 import { InvoicesDetailsPage } from './pages/invoices/invoices-details/invoices-details.page';
+import { AddInvoiceComponent } from './add-invoice/add-invoice.component';
 
 @NgModule({
   declarations: [
@@ -28,15 +29,10 @@ import { InvoicesDetailsPage } from './pages/invoices/invoices-details/invoices-
     AddclientPage,
 
     InvoicesPage,
-     InvoicesDetailsPage,
+    InvoicesDetailsPage,
+    AddInvoiceComponent,
   ],
-  imports: [
-    BrowserModule,
-    AuthModule,
-    AppRoutingModule,
-    NgbModule,
-    HttpClientModule,
-  ],
+  imports: [BrowserModule, AuthModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
