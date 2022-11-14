@@ -14,6 +14,7 @@ import { AddclientPage } from './pages/clients/addclient/addclient.page';
 import { HttpClientModule } from '@angular/common/http';
 import { InvoicesPage } from './pages/invoices/invoices.page';
 import { AuthModule } from './auth/auth.module';
+import { InvoicesDetailsPage } from './pages/invoices/invoices-details/invoices-details.page';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { AuthModule } from './auth/auth.module';
     AddclientPage,
 
     InvoicesPage,
+     InvoicesDetailsPage,
   ],
   imports: [
     BrowserModule,
