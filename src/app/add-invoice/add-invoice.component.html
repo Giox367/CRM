@@ -1,0 +1,50 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-add-invoice" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Add invoice</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form>
+        <div class="modal-body">
+          <div class="form-floating my-3">
+            <input id="startDate" class="form-control" type="date" />
+            <label for="startDate">Date</label>
+          </div>
+          <div class="form-floating my-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password" />
+            <label for="floatingPassword">Import</label>
+          </div>
+          <div class="form-floating my-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" />
+            <label for="floatingInput">Invoice Number</label>
+          </div>
+          <div class="form-floating my-3">
+            <select class="form-select" aria-label="Client">
+              <option selected="">*</option>
+              <option>Bruno Stano</option>
+              <option>Dimitri Lazuka</option>
+              <option>Giovanni Urso</option>
+              <option>Luigi Indaco</option>
+              <option>Aras Purbijan</option>
+            </select>
+            <label for="floatingPassword">Client Name</label>
+          </div>
+          <div class="form-floating my-3">
+            <select class="form-select" aria-label="PayedOrNot">
+              <option selected="">*</option>
+
+              <option>Payed</option>
+              <option>Not payed</option>
+            </select>
+            <label for="floatingPassword">Is it already payed?</label>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Add invoice</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
