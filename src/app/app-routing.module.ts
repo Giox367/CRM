@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { RegisterPage } from './pages/register/register.page';
-import { LoginPage } from './pages/login/login.page';
-import { HomePage } from './pages/home/home.page';
 
+import { HomePage } from './pages/home/home.page';
+import { UsersPage } from './pages/users/users.page';
+import { ClientsPage } from './pages/clients/clients.page';
+import { InvoicesPage } from './pages/invoices/invoices.page';
 
 const routes: Routes = [
   {
@@ -12,19 +13,24 @@ const routes: Routes = [
     redirectTo: 'home',
   },
   {
-    path: 'login-page',
-    component: LoginPage,
+    path: 'home',
+    component: HomePage,
+  },
+  {
+    path: 'users',
+    component: UsersPage,
+  },
+  {
+    path: 'invoices',
+    component: InvoicesPage,
+  },
+  {
+    path: 'clients',
+    component: ClientsPage,
   },
   {
     path: 'users-details',
-    loadChildren: () =>
-      import('./pages/users-details/users-details.module').then(
-        (m) => m.UsersDetailsModule
-      ),
-  },
-  {
-    path: 'register',
-    component: RegisterPage,
+    loadChildren: () => import('./pages/users-details/users-details.module').then((m) => m.UsersDetailsModule),
   },
   {
     path: 'home',
@@ -36,4 +42,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
