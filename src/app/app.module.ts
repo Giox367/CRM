@@ -10,11 +10,12 @@ import { UsersPage } from './pages/users/users.page';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ClientsPage } from './pages/clients/clients.page';
-import { AddclientPage } from './pages/clients/addclient/addclient.page';
+
 import { HttpClientModule } from '@angular/common/http';
 import { InvoicesPage } from './pages/invoices/invoices.page';
 import { AuthModule } from './auth/auth.module';
 import { InvoicesDetailsPage } from './pages/invoices/invoices-details/invoices-details.page';
+import { AddclientComponent } from './modals/addclient/addclient.component';
 
 @NgModule({
   declarations: [
@@ -25,18 +26,12 @@ import { InvoicesDetailsPage } from './pages/invoices/invoices-details/invoices-
     NavComponent,
     FooterComponent,
     ClientsPage,
-    AddclientPage,
 
     InvoicesPage,
-     InvoicesDetailsPage,
+    InvoicesDetailsPage,
+    AddclientComponent,
   ],
-  imports: [
-    BrowserModule,
-    AuthModule,
-    AppRoutingModule,
-    NgbModule,
-    HttpClientModule,
-  ],
+  imports: [BrowserModule, AuthModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
