@@ -30,7 +30,7 @@ const routes: Routes = [
   },
   {
     path: 'users-details',
-    loadChildren: () => import('./pages/users-details/users-details.module').then((m) => m.UsersDetailsModule),
+    component: UsersPage,
   },
   {
     path: 'home',
