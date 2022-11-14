@@ -12,6 +12,8 @@ import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ClientsPage } from './pages/clients/clients.page';
 import { AddclientPage } from './pages/clients/addclient/addclient.page';
+import { InvoicesInvoice } from './pages/invoices/invoices.invoice';
+import { InvoicesPage } from './pages/invoices/invoices.page';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { AddclientPage } from './pages/clients/addclient/addclient.page';
     FooterComponent,
     ClientsPage,
     AddclientPage,
+    InvoicesInvoice,
+    InvoicesPage,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
