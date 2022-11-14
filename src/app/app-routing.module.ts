@@ -32,10 +32,6 @@ const routes: Routes = [
     path: 'users-details',
     component: UsersPage,
   },
-  {
-    path: 'home',
-    component: HomePage,
-  },
 ];
 
 @NgModule({
