@@ -1,4 +1,4 @@
-.card:hover {
+.cards3:hover {
   transform: scale(1.02);
   transition-duration: 0.1s;
   transition-timing-function: ease-in-out;
