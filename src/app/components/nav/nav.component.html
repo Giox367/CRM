@@ -1,28 +1,17 @@
-<nav class="navbar navbar-expand-lg bg-light">
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link disabled" href="">Clienti</a>
-      <a class="nav-link disabled" href="">Fatture</a>
+<div class="container-fluid">
+  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <li><a href="#" class="nav-link px-2 link-secondary" [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark" [routerLink]="['/users']" routerLinkActive="router-link-active">Users</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark" [routerLink]="['/clients']" routerLinkActive="router-link-active">Clients</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark" [routerLink]="['/invoices']" routerLinkActive="router-link-active">Invoices</a></li>
+    </ul>
+
+    <div class="col-md-3 text-end">
+      <button type="button" class="btn btn-outline-primary me-2" [routerLink]="['/login']" routerLinkActive="router-link-active">
+        Login
+      </button>
+      <button type="button" class="btn btn-primary" [routerLink]="['/register']" routerLinkActive="router-link-active">Sign-up</button>
     </div>
-  </div>
-  <div class="container justify-content-center">
-    <a class="navbar-brand" href="">CRM</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </div>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link" href="">Login</a>
-      <a class="nav-link" href="">Register</a>
-    </div>
-  </div>
-</nav>
+  </header>
+</div>
