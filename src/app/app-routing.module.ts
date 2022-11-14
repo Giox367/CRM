@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { RegisterPage } from './pages/register/register.page';
 
 const routes: Routes = [
   {
@@ -8,6 +9,10 @@ const routes: Routes = [
       import('./pages/users-details/users-details.module').then(
         (m) => m.UsersDetailsModule
       ),
+  },
+  {
+    path: 'register',
+    component: RegisterPage,
   },
 ];
 
