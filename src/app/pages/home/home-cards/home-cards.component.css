@@ -1,0 +1,55 @@
+.cards3:hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(234, 234, 234) 36%,
+    rgba(244, 244, 244, 1) 68%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  box-shadow: 6px 9px 7px -6px rgba(0, 0, 0, 0.26);
+  left: 3px;
+  top: 2px;
+}
+
+.card .btn-primary {
+  background: rgb(116, 25, 43);
+  background: linear-gradient(0deg, rgb(109, 26, 43) 0%, rgba(135, 48, 250, 1) 53%, rgb(135, 72, 84) 100%);
+  padding-inline: 10%;
+  border: none;
+  border-radius: 3rem;
+}
+
+.cards3 {
+  opacity: 0;
+  transform: rotate(5deg);
+  position: relative;
+  animation-name: cards-anim;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: inherit;
+  animation-fill-mode: forwards;
+}
+
+.anim2card {
+  animation-delay: 0.2s;
+}
+.anim3card {
+  animation-delay: 0.4s;
+}
+@keyframes cards-anim {
+  0% {
+    opacity: 0;
+    left: 80px;
+    transform: rotate(5deg);
+  }
+
+  100% {
+    opacity: 1;
+    left: 0px;
+    transform: rotate(0deg);
+  }
+}
