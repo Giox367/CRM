@@ -1,8 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { RegisterPage } from './pages/register/register.page';
+import { LoginPage } from './pages/login/login.page';
 
 const routes: Routes = [
+  // {
+  //   path: '',
+  //   pathMatch: 'full',
+  //   redirectTo: 'login-page',
+  // },
+  {
+    path: 'login-page',
+    component: LoginPage,
+  },
   {
     path: 'users-details',
     loadChildren: () =>
