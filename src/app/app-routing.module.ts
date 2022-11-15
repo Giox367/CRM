@@ -5,6 +5,7 @@ import { UsersPage } from './pages/users/users.page';
 import { ClientsPage } from './pages/clients/clients.page';
 import { InvoicesPage } from './pages/invoices/invoices.page';
 import { InvoicesDetailsPage } from './pages/invoices/invoices-details/invoices-details.page';
+import { AuthGuard } from './auth/auth.guard';
 
 const routes: Routes = [
   {
@@ -19,14 +20,17 @@ const routes: Routes = [
   {
     path: 'users',
     component: UsersPage,
+    canActivate: [AuthGuard],
   },
   {
     path: 'invoices',
     component: InvoicesPage,
+    canActivate: [AuthGuard],
   },
   {
     path: 'clients',
     component: ClientsPage,
+    canActivate: [AuthGuard],
   },
 ];
 
