@@ -1,15 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { AuthService } from 'src/app/auth/auth.service';
 
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css']
+  styleUrls: ['./nav.component.css'],
 })
 export class NavComponent implements OnInit {
+  constructor(public authService: AuthService, private router: Router) {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  logout() {
+    localStorage.removeItem('isLogged');
+    this.authService.isLogged = null;
+    this.router.navigate(['login']);
   }
-
 }
