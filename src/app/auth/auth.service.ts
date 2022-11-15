@@ -7,11 +7,12 @@ import { User } from '../interfaces/user';
   providedIn: 'root',
 })
 export class AuthService {
-  isLogged: User | null = null;
+  isLogged!: User | null;
+
   constructor(private http: HttpClient) {}
-  signIn(user: User) {
-    this.isLogged = user;
-    return this.http.post(environment.urlAPI + 'login', user);
+  signIn(userObj: User) {
+    this.isLogged = JSON.parse(localStorage.getItem('isLogged')!).user;
+    return this.http.post(environment.urlAPI + 'login', userObj);
   }
 
   signUp(user: User) {

@@ -32,8 +32,8 @@
           <input ngModel name="password" type="password" class="form-control" id="password" />
         </div>
         <input type="hidden" for="roles" ngModel name="roles" value="ROLE_USER" />
-        <button type="submit" class="btn btn-primary col-12">Registrati</button>
-        <h6 class="text-center mt-4">o Loggati</h6>
+        <button type="submit" class="btn btn-danger col-12">Registrati</button>
+        <h6 class="text-center mt-4">o <a href="" [routerLink]="['/login']">Accedi</a></h6>
       </form>
     </div>
   </div>

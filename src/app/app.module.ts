@@ -18,6 +18,8 @@ import { AddInvoiceComponent } from './pages/invoices/add-invoice/add-invoice.co
 import { HomeCardsComponent } from './pages/home/home-cards/home-cards.component';
 import { HomeJoinUsComponent } from './pages/home/home-join-us/home-join-us.component';
 import { AddclientComponent } from './pages/clients/addclient/addclient.component';
+import { ClientsModule } from './pages/clients/clients.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,7 @@ import { AddclientComponent } from './pages/clients/addclient/addclient.componen
     HomeJoinUsComponent,
     AddclientComponent,
   ],
-  imports: [BrowserModule, AuthModule, AppRoutingModule, NgbModule, HttpClientModule],
+  imports: [BrowserModule, AuthModule, AppRoutingModule, NgbModule, HttpClientModule, ClientsModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

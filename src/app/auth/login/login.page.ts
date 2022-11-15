@@ -16,8 +16,8 @@ export class LoginPage implements OnInit {
 
   onSubmit() {
     return this.authService.signIn(this.form.value).subscribe((ok) => {
+      localStorage.setItem('isLogged', JSON.stringify(ok));
       this.router.navigate(['/home']);
-      localStorage.setItem('userLogged', JSON.stringify(ok));
     });
   }
 }
