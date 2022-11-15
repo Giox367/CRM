@@ -7,10 +7,63 @@
       "email": "olivier@mail.com",
       "password": "bestPassw0rd",
       "age": 32,
-      "roles": [ "ROLE_ADMIN", "ROLE_USER" ]
+      "roles": [
+        "ROLE_ADMIN",
+        "ROLE_USER"
+      ]
+    },
+    {
+      "email": "brunostano00@protonmail.com",
+      "password": "$2a$10$tmvbtkG3f5XgPfwyGmnygu9vtsXc8lY/moi4Enl6/btDxTYK91ULW",
+      "firstname": "Bruno",
+      "lastname": "Stano",
+      "age": "28",
+      "id": 2
+    },
+    {
+      "email": "we@we.it",
+      "password": "$2a$10$X1gz3i/WPkgtLhfmgjb0Re8ovKSdLvE3Zee4anzFQ/B/7L5Usd6ha",
+      "firstname": "we",
+      "lastname": "we",
+      "age": "21",
+      "id": 3
+    },
+    {
+      "email": "wwww@wwww.ww",
+      "password": "$2a$10$hrCB5Z33kit6PSCRT/srh.QW5cQCKBtblSnar8pYyofOgmtV0ZvTG",
+      "firstname": "ciao",
+      "lastname": "cia",
+      "age": "20",
+      "id": 4
+    },
+    {
+      "email": "brunostano00@we",
+      "password": "$2a$10$CXlsNrEhXaFvmX03xlXgb.rOehaqC6p/QEQjZxXVs628ptXx/Bxle",
+      "firstname": "Bruno",
+      "lastname": "Bravo",
+      "age": "22",
+      "roles": "",
+      "id": 5
+    },
+    {
+      "email": "we89@we89.it",
+      "password": "$2a$10$.4GkKvOnDEI7KVl00jUu4u8kx.qkGPILKS6Fl1nff2s2V91dHw5U.",
+      "firstname": "Bruno",
+      "lastname": "Bravo",
+      "age": "2",
+      "roles": "",
+      "id": 6
+    },
+    {
+      "email": "dimitri@lazuka.it",
+      "password": "$2a$10$4pVr0vRiUjFGyBbZTTua8O2ezjGH2XcCS1FuRxqENZfX.NQqC7C5q",
+      "firstname": "Dimitri",
+      "lastname": "Lazuka",
+      "age": "24",
+      "roles": "",
+      "id": 7
     }
   ],
-
   "client": [
     {
       "ragioneSociale": "Bruno-Romano SPA - TEST",
@@ -24,18 +77,17 @@
       "telefonoContatto": "380.260.3225",
       "emailContatto": "armando.martinelli@hotmail.com",
       "indirizzoSede": {
-          "via": "Contrada Gastone 4, Piano 4",
-          "civico": "698",
-          "cap": "38615",
-          "comune": {
-              "nome": "LASTRA A SIGNA",
-              "provincia": "FI"
-          }
+        "via": "Contrada Gastone 4, Piano 4",
+        "civico": "698",
+        "cap": "38615",
+        "comune": {
+          "nome": "LASTRA A SIGNA",
+          "provincia": "FI"
+        }
       },
       "dataInserimento": "2019-06-01T08:11:01.911+00:00"
     }
   ],
-
   "invoices": [
     {
       "id": 1,
@@ -44,7 +96,9 @@
       "anno": 2020,
       "importo": 2289.24,
       "stato": "NON PAGATA",
-      "cliente": {"id": 1 },
+      "cliente": {
+        "id": 1
+      },
       "dataInserimento": "2019-06-01T08:11:01.911+00:00",
       "dataUltimaModifica": "2021-03-24T21:32:06.375+00:00"
     }

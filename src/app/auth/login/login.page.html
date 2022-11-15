@@ -1,18 +1,18 @@
 <div class="container">
   <div class="row d-flex justify-content-center d-flex align-items-center">
-    <div class="col-6">
-      <form class="border border-primary rounded-3 border-3 p-5 my-5">
+    <div class="col-lg-6 col-md-8 col-12">
+      <form #f="ngForm" (ngSubmit)="onSubmit()" class="border border-primary rounded-3 border-1 p-5 my-5">
         <h2 class="text-center mb-4">Login</h2>
         <div class="mb-3">
-          <label for="email" class="form-label">Indirizzo Email</label>
-          <input type="email" class="form-control" id="email" />
+          <label for="email" class="form-label">Indirizzo email</label>
+          <input ngModel name="email" type="email" class="form-control" id="email" />
         </div>
         <div class="mb-3">
           <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password" />
+          <input ngModel name="password" type="password" class="form-control" id="password" />
         </div>
         <button type="submit" class="btn btn-primary">Invia</button>
-        <h6 class="text-center mt-4">Registrati</h6>
+        <h6 class="text-center mt-4">o Registrati</h6>
       </form>
     </div>
   </div>
