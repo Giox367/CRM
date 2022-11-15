@@ -10,22 +10,22 @@
   <div class="row mb-5">
     <div class="col">
       <button type="button" class="btn btn-primary d-flex justify-content-start" data-bs-toggle="modal" data-bs-target="#modal-add-invoice">
-        Dettagli Fattura
+        Aggiungi Fattura
       </button>
     </div>
     <!-- col-->
   </div>
   <!-- row-->
   <div class="row">
-    <div class="col-md-4 col-lg-3 col-12">
+    <div class="col-md-4 col-lg-3 col-12" *ngFor="let item of invoices">
       <div class="card mb-3 border border-primary rounded-3 border-3">
         <div class="card-body">
           <h5 class="card-title pe-3">"Nome cliente"</h5>
 
-          <p class="card-text">Importo:</p>
-          <p class="card-text">Stato:</p>
-          <p class="card-text">Data:</p>
-          <p class="card-text">Ultima modifica:</p>
+          <p class="card-text">Importo: {{item.importo}}</p>
+          <p class="card-text">Stato: {{item.stato}}</p>
+          <p class="card-text">Data: {{item.data}}</p>
+          <p class="card-text">Ultima modifica: {{item.dataUltimaModifica}}</p>
           <div class="col d-flex align-items-center justify-content-between">
             <button type="button" class="btn btn-primary">Modifica</button>
             <img src="https://haibisognodiuncodiceabarre.it/wp-content/uploads/sites/9/2014/09/ITF-14-With-Bearer-Bars.jpg" alt="barcode" />
