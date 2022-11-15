@@ -15,21 +15,23 @@ import { InvoicesPage } from './pages/invoices/invoices.page';
 import { AuthModule } from './auth/auth.module';
 import { InvoicesDetailsPage } from './pages/invoices/invoices-details/invoices-details.page';
 import { AddInvoiceComponent } from './pages/invoices/add-invoice/add-invoice.component';
+import { HomeCardsComponent } from './pages/home/home-cards/home-cards.component';
+import { HomeJoinUsComponent } from './pages/home/home-join-us/home-join-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePage,
-
     UsersPage,
     NavComponent,
     FooterComponent,
     ClientsPage,
     AddclientPage,
-
     InvoicesPage,
     InvoicesDetailsPage,
     AddInvoiceComponent,
+    HomeCardsComponent,
+    HomeJoinUsComponent,
   ],
   imports: [BrowserModule, AuthModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [],

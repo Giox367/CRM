@@ -1,0 +1,31 @@
+.bg-warning {
+  background: rgb(255, 192, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 192, 0, 1) 20%,
+    rgba(255, 203, 41, 1) 37%,
+    rgba(255, 214, 90, 1) 63%,
+    rgba(255, 192, 0, 1) 100%
+  );
+}
+
+.btn {
+  animation-name: btn-anim;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
+  opacity: 0;
+}
+
+@keyframes btn-anim {
+  0% {
+    scale: 0.7;
+    opacity: 0;
+  }
+
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
