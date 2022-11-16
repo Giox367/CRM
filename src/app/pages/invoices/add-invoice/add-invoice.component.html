@@ -6,22 +6,22 @@
         <h1 class="modal-title fs-5" id="exampleModalLabel">Add invoice</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <form (ngSubmit)="onSubmit()" #invoice="ngForm">
+      <form (ngSubmit)="onSubmit(invoice)" #invoice="ngForm">
         <div class="modal-body">
           <div class="form-floating my-3">
-            <input id="startDate" class="form-control" type="date" ngModel #date="ngModel" />
+            <input name="data" id="startDate" class="form-control" type="date" ngModel />
             <label for="startDate">Data</label>
           </div>
           <div class="form-floating my-3">
-            <input type="text" class="form-control" id="floatingPassword" placeholder="Password" ngModel #importo="ngModel" />
+            <input type="text" name="importo" class="form-control" id="floatingPassword" placeholder="Password" ngModel />
             <label for="floatingPassword">Importo</label>
           </div>
           <div class="form-floating my-3">
-            <input type="text" class="form-control" id="floatingInput" ngModel #numeroFattura="ngModel" placeholder="name@example.com" />
+            <input type="text" name="numeroFattura" class="form-control" id="floatingInput" ngModel placeholder="name@example.com" />
             <label for="floatingInput">Numero Fattura</label>
           </div>
           <div class="form-floating my-3">
-            <select class="form-select" name="nomeCliente" id="nomeCliente" ngModel #nomeCliente="ngModel">
+            <select class="form-select" name="nomeCliente" id="nomeCliente" ngModel>
               <option selected="">*</option>
               <option>Bruno Stano</option>
               <option>Dimitri Lazuka</option>
@@ -32,7 +32,7 @@
             <label for="floatingPassword">Nome Cliente</label>
           </div>
           <div class="form-floating my-3">
-            <select class="form-select" ngModel #pagamento="ngModel" id="pagamento" name="pagamentoe">
+            <select class="form-select" ngModel id="pagamento" name="pagamento">
               <option selected="">*</option>
 
               <option>Pagata</option>

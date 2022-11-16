@@ -964,6 +964,22 @@
       },
       "dataInserimento": "2019-06-01T08:11:01.911+00:00",
       "dataUltimaModifica": "2021-03-24T21:32:06.375+00:00"
+    },
+    {
+      "data": "2022-11-10",
+      "importo": "tanto",
+      "numeroFattura": "33",
+      "nomeCliente": "Bruno Stano",
+      "pagamento": "Non Pagata",
+      "id": 4
+    },
+    {
+      "data": "2022-11-01",
+      "importo": "poco",
+      "numeroFattura": "69",
+      "nomeCliente": "Dimitri Lazuka",
+      "pagamento": "Pagata",
+      "id": 5
     }
   ]
 }

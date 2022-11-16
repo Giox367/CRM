@@ -13,7 +13,7 @@ export class AddInvoiceComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onSubmit() {
+  onSubmit(form: NgForm) {
     return this.invoiceSrv.addInvoice(this.myForm.value).subscribe();
   }
 }

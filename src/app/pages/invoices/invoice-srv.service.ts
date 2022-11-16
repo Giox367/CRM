@@ -14,6 +14,6 @@ export class InvoiceSrvService {
   }
 
   addInvoice(invoice: Invoice) {
-    return this.http.post<Invoice>(environment.urlAPI + 'invoice', invoice);
+    return this.http.post<Invoice>(environment.urlAPI + 'invoices', invoice);
   }
 }
