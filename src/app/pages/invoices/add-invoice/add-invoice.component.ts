@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { InvoiceSrvService } from '../invoice-srv.service';
 
 @Component({
   selector: 'app-add-invoice',
@@ -8,8 +9,11 @@ import { NgForm } from '@angular/forms';
 })
 export class AddInvoiceComponent implements OnInit {
   @ViewChild('invoice') myForm!: NgForm;
-  constructor() {}
+  constructor(private invoiceSrv: InvoiceSrvService) {}
 
   ngOnInit(): void {}
-  addInvoice() {}
+
+  onSubmit() {
+    return this.invoiceSrv.addInvoice(this.myForm.value).subscribe();
+  }
 }
