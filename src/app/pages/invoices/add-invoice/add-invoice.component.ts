@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-add-invoice',
   templateUrl: './add-invoice.component.html',
-  styleUrls: ['./add-invoice.component.css']
+  styleUrls: ['./add-invoice.component.css'],
 })
 export class AddInvoiceComponent implements OnInit {
+  @ViewChild('invoice') myForm!: NgForm;
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
+  addInvoice() {}
 }

@@ -62,6 +62,15 @@
       "age": "24",
       "roles": "",
       "id": 7
+    },
+    {
+      "email": "prova@gmail.com",
+      "password": "$2a$10$RTcSX0zWSa08YY/.MLLvSe40H/tNxiCnWLLbFJ8G4Rbq5q7r..UKy",
+      "firstname": "Luigi",
+      "lastname": "Indaco",
+      "age": "26",
+      "roles": "",
+      "id": 8
     }
   ],
   "client": [
@@ -799,6 +808,121 @@
         "dataInserimento": ""
       },
       "id": 32
+    },
+    {
+      "ragioneSociale": "a",
+      "partitaIva": "a",
+      "tipoCliente": "a",
+      "email": "a",
+      "pec": "a",
+      "telefono": "a",
+      "nomeContatto": "a",
+      "cognomeContatto": "a",
+      "telefonoContatto": "a",
+      "emailContatto": "a",
+      "indirizzoSede": {
+        "via": "a",
+        "civico": "a",
+        "cap": "a",
+        "Comune": {
+          "nome": "a",
+          "provincia": "a"
+        },
+        "dataInserimento": ""
+      },
+      "id": 33
+    },
+    {
+      "ragioneSociale": "a",
+      "partitaIva": "a",
+      "tipoCliente": "a",
+      "email": "a",
+      "pec": "a",
+      "telefono": "a",
+      "nomeContatto": "a",
+      "cognomeContatto": "a",
+      "telefonoContatto": "a",
+      "emailContatto": "a",
+      "indirizzoSede": {
+        "via": "a",
+        "civico": "a",
+        "cap": "a",
+        "Comune": {
+          "nome": "a",
+          "provincia": "a"
+        },
+        "dataInserimento": ""
+      },
+      "id": 34
+    },
+    {
+      "ragioneSociale": "a",
+      "partitaIva": "a",
+      "tipoCliente": "a",
+      "email": "a",
+      "pec": "a",
+      "telefono": "a",
+      "nomeContatto": "a",
+      "cognomeContatto": "a",
+      "telefonoContatto": "a",
+      "emailContatto": "a",
+      "indirizzoSede": {
+        "via": "a",
+        "civico": "a",
+        "cap": "a",
+        "Comune": {
+          "nome": "a",
+          "provincia": "a"
+        },
+        "dataInserimento": ""
+      },
+      "id": 35
+    },
+    {
+      "ragioneSociale": "a",
+      "partitaIva": "a",
+      "tipoCliente": "a",
+      "email": "a",
+      "pec": "a",
+      "telefono": "a",
+      "nomeContatto": "a",
+      "cognomeContatto": "a",
+      "telefonoContatto": "a",
+      "emailContatto": "a",
+      "indirizzoSede": {
+        "via": "a",
+        "civico": "a",
+        "cap": "a",
+        "Comune": {
+          "nome": "a",
+          "provincia": "a"
+        },
+        "dataInserimento": ""
+      },
+      "id": 36
+    },
+    {
+      "ragioneSociale": "a",
+      "partitaIva": "a",
+      "tipoCliente": "a",
+      "email": "a",
+      "pec": "a",
+      "telefono": "a",
+      "nomeContatto": "a",
+      "cognomeContatto": "a",
+      "telefonoContatto": "a",
+      "emailContatto": "a",
+      "indirizzoSede": {
+        "via": "a",
+        "civico": "a",
+        "cap": "a",
+        "Comune": {
+          "nome": "a",
+          "provincia": "a"
+        },
+        "dataInserimento": ""
+      },
+      "id": 37
     }
   ],
   "invoices": [
