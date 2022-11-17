@@ -71,6 +71,15 @@
       "age": "30",
       "roles": "",
       "id": 8
+    },
+    {
+      "email": "prova@gmail.com",
+      "password": "$2a$10$hGGqEM4AhQigtVytWbb.DuXMzYAmusTyKoTAfFEojgIh3QKZwkr1a",
+      "firstname": "Luigi",
+      "lastname": "Indaco",
+      "age": "26",
+      "roles": "",
+      "id": 9
     }
   ],
   "client": [
