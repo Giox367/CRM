@@ -19,7 +19,7 @@ import { HomeCardsComponent } from './pages/home/home-cards/home-cards.component
 import { HomeJoinUsComponent } from './pages/home/home-join-us/home-join-us.component';
 import { AddclientComponent } from './pages/clients/addclient/addclient.component';
 import { ClientsModule } from './pages/clients/clients.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -37,7 +37,7 @@ import { FormsModule } from '@angular/forms';
     HomeJoinUsComponent,
     AddclientComponent,
   ],
-  imports: [BrowserModule, AuthModule, AppRoutingModule, NgbModule, HttpClientModule, ClientsModule, FormsModule],
+  imports: [BrowserModule, AuthModule, AppRoutingModule, NgbModule, HttpClientModule, ClientsModule, FormsModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
