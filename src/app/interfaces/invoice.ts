@@ -8,4 +8,5 @@ export interface Invoice {
   cliente: { id: number };
   dataInserimento: Date;
   dataUltimaModifica: Date;
+  nomeCliente: string;
 }
