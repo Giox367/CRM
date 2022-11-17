@@ -94,7 +94,8 @@
           "provincia": "FI"
         }
       },
-      "dataInserimento": "2019-06-01T08:11:01.911+00:00"
+      "dataInserimento": "2019-06-01T08:11:01.911+00:00",
+      "id": 1
     },
     {
       "ragioneSociale": "",
@@ -969,6 +970,29 @@
         "dataInserimento": ""
       },
       "id": 39
+    },
+    {
+      "ragioneSociale": "",
+      "partitaIva": "",
+      "tipoCliente": "",
+      "email": "",
+      "pec": "",
+      "telefono": "",
+      "nomeContatto": "",
+      "cognomeContatto": "",
+      "telefonoContatto": "",
+      "emailContatto": "",
+      "indirizzoSede": {
+        "via": "",
+        "civico": "",
+        "cap": "",
+        "Comune": {
+          "nome": "",
+          "provincia": ""
+        },
+        "dataInserimento": ""
+      },
+      "id": 40
     }
   ],
   "invoices": [

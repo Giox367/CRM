@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Client } from 'src/app/interfaces/client';
 import { environment } from 'src/environments/environment';
+import { ClientService } from './client.service';
 
 @Component({
   templateUrl: './clients.page.html',
@@ -9,7 +10,7 @@ import { environment } from 'src/environments/environment';
 })
 export class ClientsPage implements OnInit {
   client: Client[] = [];
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private clientService: ClientService) {}
 
   ngOnInit(): void {}
 
@@ -18,6 +19,6 @@ export class ClientsPage implements OnInit {
   }
 
   deleteClient(id: number) {
-    this.http.delete(environment.urlAPI + 'client/' + id);
+    // this.http.delete(environment.urlAPI + 'client/' + id).subscribe((data) => console.log(data));
   }
 }
