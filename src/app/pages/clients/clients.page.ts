@@ -12,9 +12,7 @@ export class ClientsPage implements OnInit {
   client: Client[] = [];
   constructor(private http: HttpClient, private clientService: ClientService) {}
 
-  ngOnInit(): void {}
-
-  ngDoCheck(): void {
+  ngOnInit(): void {
     this.http.get(environment.urlAPI + 'client').subscribe((obj: any) => (this.client = obj));
   }
 
