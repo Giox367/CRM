@@ -1027,6 +1027,14 @@
       "nomeCliente": "",
       "pagamento": "",
       "id": 4
+    },
+    {
+      "data": "2022-11-18",
+      "importo": "99",
+      "numeroFattura": "33",
+      "nomeCliente": "Dimitri Lazuka",
+      "pagamento": "Non Pagata",
+      "id": 5
     }
   ]
 }
