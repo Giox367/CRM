@@ -1019,6 +1019,14 @@
       },
       "dataInserimento": "2019-06-01T08:11:01.911+00:00",
       "dataUltimaModifica": "2021-03-24T21:32:06.375+00:00"
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numeroFattura": "",
+      "nomeCliente": "",
+      "pagamento": "",
+      "id": 4
     }
   ]
 }
