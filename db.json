@@ -1,60 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "firstname": "Olivier",
-      "lastname": "Monge",
-      "email": "olivier@mail.com",
-      "password": "bestPassw0rd",
-      "age": 32,
-      "roles": [
-        "ROLE_ADMIN",
-        "ROLE_USER"
-      ]
-    },
-    {
-      "email": "brunostano00@protonmail.com",
-      "password": "$2a$10$tmvbtkG3f5XgPfwyGmnygu9vtsXc8lY/moi4Enl6/btDxTYK91ULW",
-      "firstname": "Bruno",
-      "lastname": "Stano",
-      "age": "28",
-      "id": 2
-    },
-    {
-      "email": "we@we.it",
-      "password": "$2a$10$X1gz3i/WPkgtLhfmgjb0Re8ovKSdLvE3Zee4anzFQ/B/7L5Usd6ha",
-      "firstname": "we",
-      "lastname": "we",
-      "age": "21",
-      "id": 3
-    },
-    {
-      "email": "wwww@wwww.ww",
-      "password": "$2a$10$hrCB5Z33kit6PSCRT/srh.QW5cQCKBtblSnar8pYyofOgmtV0ZvTG",
-      "firstname": "ciao",
-      "lastname": "cia",
-      "age": "20",
-      "id": 4
-    },
-    {
-      "email": "brunostano00@we",
-      "password": "$2a$10$CXlsNrEhXaFvmX03xlXgb.rOehaqC6p/QEQjZxXVs628ptXx/Bxle",
-      "firstname": "Bruno",
-      "lastname": "Bravo",
-      "age": "22",
-      "roles": "",
-      "id": 5
-    },
-    {
-      "email": "we89@we89.it",
-      "password": "$2a$10$.4GkKvOnDEI7KVl00jUu4u8kx.qkGPILKS6Fl1nff2s2V91dHw5U.",
-      "firstname": "Bruno",
-      "lastname": "Bravo",
-      "age": "2",
-      "roles": "",
-      "id": 6
-    },
-    {
       "email": "dimitri@lazuka.it",
       "password": "$2a$10$4pVr0vRiUjFGyBbZTTua8O2ezjGH2XcCS1FuRxqENZfX.NQqC7C5q",
       "firstname": "Dimitri",
@@ -64,13 +10,31 @@
       "id": 7
     },
     {
-      "email": "giovanni@urso.it",
-      "password": "$2a$10$AkCY5QJkIxcqSz3BVOmRGedWp6j5g9ZKghxbW.D36XMi1u2KUB7R2",
-      "firstname": "Giovanni",
-      "lastname": "Urso",
-      "age": "30",
+      "email": "awdaw@dasd.ca",
+      "password": "$2a$10$qvwaKQQhJAdHFBZsM6tGRelLnZWLrOMtPA23VyWbCWqTPs10dkeFW",
+      "firstname": "si ",
+      "lastname": "cancellano",
+      "age": "2",
       "roles": "",
-      "id": 8
+      "id": 9
+    },
+    {
+      "email": "ada@asdas.ad",
+      "password": "$2a$10$LtIsvrb91oBwnqVCCUJVJOfrljMcB8Ub1Fxoi4ZvwLGTXl0YvuFP2",
+      "firstname": "ma ",
+      "lastname": "bisogna",
+      "age": "231",
+      "roles": "",
+      "id": 10
+    },
+    {
+      "email": "asd@asd.com",
+      "password": "$2a$10$Qi8T/WXyCaw/EX9oBvGZ3umOwnDD7q0OsTuTd3MCCYSy9607Fliei",
+      "firstname": "cambiare",
+      "lastname": "pagina :(",
+      "age": "1",
+      "roles": "",
+      "id": 11
     }
   ],
   "client": [
@@ -119,6 +83,52 @@
         "dataInserimento": ""
       },
       "id": 2
+    },
+    {
+      "ragioneSociale": "qweqweqw",
+      "partitaIva": "",
+      "tipoCliente": "",
+      "email": "",
+      "pec": "",
+      "telefono": "",
+      "nomeContatto": "",
+      "cognomeContatto": "",
+      "telefonoContatto": "",
+      "emailContatto": "",
+      "indirizzoSede": {
+        "via": "",
+        "civico": "",
+        "cap": "",
+        "Comune": {
+          "nome": "",
+          "provincia": ""
+        },
+        "dataInserimento": ""
+      },
+      "id": 3
+    },
+    {
+      "ragioneSociale": "qweqweqweqweqw",
+      "partitaIva": "",
+      "tipoCliente": "",
+      "email": "",
+      "pec": "",
+      "telefono": "",
+      "nomeContatto": "",
+      "cognomeContatto": "",
+      "telefonoContatto": "",
+      "emailContatto": "",
+      "indirizzoSede": {
+        "via": "",
+        "civico": "",
+        "cap": "",
+        "Comune": {
+          "nome": "",
+          "provincia": ""
+        },
+        "dataInserimento": ""
+      },
+      "id": 4
     }
   ],
   "invoices": [
@@ -184,6 +194,22 @@
       "nomeCliente": "Bruno Stano",
       "pagamento": "Pagata",
       "id": 6
+    },
+    {
+      "data": "2022-11-17",
+      "importo": "66666",
+      "numeroFattura": "",
+      "nomeCliente": "",
+      "pagamento": "",
+      "id": 7
+    },
+    {
+      "data": "2022-11-17",
+      "importo": "66666",
+      "numeroFattura": "",
+      "nomeCliente": "",
+      "pagamento": "",
+      "id": 8
     }
   ]
 }

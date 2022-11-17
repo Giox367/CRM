@@ -2,4 +2,5 @@
 
 body {
   background-color: rgb(221, 233, 222);
+  min-height: 100%;
 }
