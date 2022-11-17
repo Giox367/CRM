@@ -62,29 +62,6 @@
       "id": 1
     },
     {
-      "ragioneSociale": "io sono bello",
-      "partitaIva": "",
-      "tipoCliente": "",
-      "email": "",
-      "pec": "",
-      "telefono": "",
-      "nomeContatto": "",
-      "cognomeContatto": "",
-      "telefonoContatto": "",
-      "emailContatto": "",
-      "indirizzoSede": {
-        "via": "",
-        "civico": "",
-        "cap": "",
-        "Comune": {
-          "nome": "",
-          "provincia": ""
-        },
-        "dataInserimento": ""
-      },
-      "id": 2
-    },
-    {
       "ragioneSociale": "qweqweqw",
       "partitaIva": "",
       "tipoCliente": "",
@@ -106,29 +83,6 @@
         "dataInserimento": ""
       },
       "id": 3
-    },
-    {
-      "ragioneSociale": "qweqweqweqweqw",
-      "partitaIva": "",
-      "tipoCliente": "",
-      "email": "",
-      "pec": "",
-      "telefono": "",
-      "nomeContatto": "",
-      "cognomeContatto": "",
-      "telefonoContatto": "",
-      "emailContatto": "",
-      "indirizzoSede": {
-        "via": "",
-        "civico": "",
-        "cap": "",
-        "Comune": {
-          "nome": "",
-          "provincia": ""
-        },
-        "dataInserimento": ""
-      },
-      "id": 4
     }
   ],
   "invoices": [

@@ -12,7 +12,7 @@
       </button>
     </div>
     <div class="col-8">
-      <input class="form-control rounded-pill border-primary" type="text" placeholder="Ricerca Cliente..." />
+      <input class="form-control rounded-pill border-success" type="text" placeholder="Ricerca Cliente..." />
     </div>
   </div>
 
@@ -33,8 +33,8 @@
             <td>{{c.ragioneSociale}}</td>
             <td>{{c.partitaIva}}</td>
             <td>{{c.email}}</td>
-            <td><button type="button" class="btn btn-outline-success">Dettagli Cliente</button></td>
-            <td><button type="button" class="btn btn-danger" (click)="deleteClient(c)">Elimina</button></td>
+            <td><button type="button" class="btn btn-outline-warning text-dark">Dettagli Cliente</button></td>
+            <td><button type="button" class="btn btn-warning text-dark" (click)="deleteClient(c)">Elimina</button></td>
           </tr>
         </tbody>
       </table>
