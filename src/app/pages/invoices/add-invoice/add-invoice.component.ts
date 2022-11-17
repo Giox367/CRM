@@ -11,11 +11,12 @@ import { InvoiceSrvService } from '../invoice-srv.service';
 export class AddInvoiceComponent implements OnInit {
   @ViewChild('invoice') myForm!: NgForm;
   clients = ['Bruno Stano', 'Dimitri Lazuka', 'Giovanni Urso', 'Luigi Indaco', 'Aras Purbijan'];
+  pagamento = ['pagata', 'non pagata'];
   constructor(private invoiceSrv: InvoiceSrvService) {}
 
   ngOnInit(): void {}
 
-  onSubmit(form: NgForm) {
-    return this.invoiceSrv.addInvoice(this.myForm.value).subscribe();
+  onSubmit() {
+    return this.invoiceSrv.addInvoice(this.myForm.value).subscribe((obj: any) => this.invoiceSrv.invoices.push(obj));
   }
 }

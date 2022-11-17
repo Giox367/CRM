@@ -21,7 +21,7 @@
   </div>
   <!-- row-->
   <div class="row">
-    <div class="col-md-4 col-lg-3 col-12" *ngFor="let item of invoices">
+    <div class="col-md-4 col-lg-3 col-12" *ngFor="let item of invoiceSrv.invoices; let i = index">
       <div class="card mb-3">
         <div class="card-body">
           <h5 class="card-title pe-3">Nome: {{item.nomeCliente}}</h5>

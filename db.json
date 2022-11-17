@@ -71,6 +71,15 @@
       "age": "30",
       "roles": "",
       "id": 8
+    },
+    {
+      "email": "prova@gmail.com",
+      "password": "$2a$10$8NXP4FbfHmRHNSzBoYA7b.AoUV26xou4cAgR7cstuXVfUgERd/6Qm",
+      "firstname": "Luigi",
+      "lastname": "Indaco",
+      "age": "26",
+      "roles": "",
+      "id": 9
     }
   ],
   "client": [
@@ -184,6 +193,30 @@
       "nomeCliente": "Bruno Stano",
       "pagamento": "Pagata",
       "id": 6
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numeroFattura": "",
+      "nomeCliente": "",
+      "pagamento": "",
+      "id": 7
+    },
+    {
+      "data": "2022-12-10",
+      "importo": "tanto",
+      "numeroFattura": "420",
+      "nomeCliente": "Luigi Indaco",
+      "pagamento": "Pagata",
+      "id": 8
+    },
+    {
+      "data": "2022-11-30",
+      "importo": "10000",
+      "numeroFattura": "69",
+      "nomeCliente": "Bruno Stano",
+      "pagamento": "pagata,non pagata",
+      "id": 9
     }
   ]
 }
