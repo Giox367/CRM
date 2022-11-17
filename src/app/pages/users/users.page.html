@@ -1,32 +1,15 @@
-<div class="row w-50 d-flex justify-content-between m-auto">
-  <div class="card col-12 col-md-5 col-lg-3 m-2">
-    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" class="card-img-top" alt="user's profile picture" />
-    <div class="card-body">
-      <h5 class="card-title text-center">Nome e cognome</h5>
+<div class="container">
+  <div class="row d-flex justify-content-start m-auto">
+    <div *ngFor="let u of user" class="card col-12 col-md-5 col-lg-2 m-2">
+      <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" class="card-img-top" alt="user's profile picture" />
+      <div class="card-body">
+        <h5 class="card-title text-center">{{u.firstname}} {{u.lastname}}</h5>
+      </div>
+      <ul class="list-group list-group-flush text-center">
+        <li class="list-group-item">{{u.age}}</li>
+        <li class="list-group-item">{{u.email}}</li>
+      </ul>
+      <button class="btn btn-outline-secondary">Elimina Utente</button>
     </div>
-    <ul class="list-group list-group-flush text-center">
-      <li class="list-group-item">#age anni</li>
-      <li class="list-group-item">example@gmail.it</li>
-    </ul>
-  </div>
-  <div class="card col-12 col-md-5 col-lg-3 m-2">
-    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" class="card-img-top" alt="user's profile picture" />
-    <div class="card-body">
-      <h5 class="card-title text-center">Nome e cognome</h5>
-    </div>
-    <ul class="list-group list-group-flush text-center">
-      <li class="list-group-item">#age anni</li>
-      <li class="list-group-item">example@gmail.it</li>
-    </ul>
-  </div>
-  <div class="card col-12 col-md-5 col-lg-3 m-2">
-    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" class="card-img-top" alt="user's profile picture" />
-    <div class="card-body">
-      <h5 class="card-title text-center">Nome e cognome</h5>
-    </div>
-    <ul class="list-group list-group-flush text-center">
-      <li class="list-group-item">#age anni</li>
-      <li class="list-group-item">example@gmail.it</li>
-    </ul>
   </div>
 </div>

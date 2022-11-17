@@ -12,4 +12,8 @@ export class ClientService {
   addClient(client: Client) {
     return this.http.post(environment.urlAPI + 'client', client);
   }
+
+  deleteClient(id: number) {
+    return this.http.delete(environment.urlAPI + 'client/' + id);
+  }
 }
