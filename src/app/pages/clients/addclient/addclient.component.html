@@ -80,13 +80,16 @@
                 <label for="floatingInput">Cap</label>
               </div>
 
-              <div ngModelGroup="Comune" class="form-floating col-2 my-3">
-                <input ngModel name="nome" type="text" class="form-control" id="floatingInput" />
-                <label for="floatingInput">Comune</label>
-
-                <div class="form-floating col-2 my-3">
-                  <input ngModel name="provincia" type="text" class="form-control" id="floatingInput" />
-                  <label for="floatingInput">Provincia</label>
+              <div ngModelGroup="Comune">
+                <div class="row">
+                  <div class="form-floating col-2 my-3">
+                    <input ngModel name="nome" type="text" class="form-control" id="floatingInput" />
+                    <label for="floatingInput">Comune</label>
+                  </div>
+                  <div class="form-floating col-2 my-3">
+                    <input ngModel name="provincia" type="text" class="form-control" id="floatingInput" />
+                    <label for="floatingInput">Provincia</label>
+                  </div>
                 </div>
               </div>
             </div>
@@ -95,7 +98,7 @@
               <label for="startDate">Data Inserimento</label>
             </div>
             <div class="modal-footer">
-              <button type="submit" class="btn btn-primary">Aggiungi Cliente</button>
+              <button type="submit" data-bs-dismiss="modal" class="btn btn-primary">Aggiungi Cliente</button>
             </div>
           </div>
         </div>

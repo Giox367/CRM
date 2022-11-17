@@ -7,7 +7,16 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root',
 })
 export class ClientService {
+  client: Client[] = [];
   constructor(private http: HttpClient) {}
+
+  getClient(id: number) {
+    return this.http.get(environment.urlAPI + 'client/' + id);
+  }
+
+  getClients() {
+    return this.http.get(environment.urlAPI + 'client');
+  }
 
   addClient(client: Client) {
     return this.http.post(environment.urlAPI + 'client', client);

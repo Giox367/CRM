@@ -17,8 +17,6 @@ export class AddclientComponent implements OnInit {
   ngOnInit(): void {}
 
   onSubmit() {
-    return this.clientService.addClient(this.form.value).subscribe();
+    return this.clientService.addClient(this.form.value).subscribe((obj: any) => this.clientService.client.push(obj));
   }
-
-  
 }

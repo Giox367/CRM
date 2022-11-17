@@ -9,14 +9,16 @@ import { ClientService } from './client.service';
   styleUrls: ['./clients.page.css'],
 })
 export class ClientsPage implements OnInit {
-  client: Client[] = [];
-  constructor(private http: HttpClient, private clientService: ClientService) {}
+  constructor(private http: HttpClient, public clientService: ClientService) {}
 
   ngOnInit(): void {
-    this.http.get(environment.urlAPI + 'client').subscribe((obj: any) => (this.client = obj));
+    this.clientService.getClients().subscribe((obj: any) => (this.clientService.client = obj));
   }
 
-  deleteClient(id: number) {
-    // this.http.delete(environment.urlAPI + 'client/' + id).subscribe((data) => console.log(data));
+  deleteClient(obj: any) {
+    // this.clientService.client.splice(obj.id, 1);
+
+    this.clientService.getClients().subscribe((obj: any) => (this.clientService.client = obj));
+    return this.clientService.deleteClient(obj.id).subscribe();
   }
 }
