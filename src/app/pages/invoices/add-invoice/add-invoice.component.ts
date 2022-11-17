@@ -10,6 +10,7 @@ import { InvoiceSrvService } from '../invoice-srv.service';
 })
 export class AddInvoiceComponent implements OnInit {
   @ViewChild('invoice') myForm!: NgForm;
+  clients = ['Bruno Stano', 'Dimitri Lazuka', 'Giovanni Urso', 'Luigi Indaco', 'Aras Purbijan'];
   constructor(private invoiceSrv: InvoiceSrvService) {}
 
   ngOnInit(): void {}

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Invoice } from 'src/app/interfaces/invoice';
-import { User } from 'src/app/interfaces/user';
+
 import { InvoiceSrvService } from './invoice-srv.service';
 
 @Component({
@@ -14,5 +14,6 @@ export class InvoicesPage implements OnInit {
 
   ngOnInit(): void {
     this.invoiceSrv.getInvoices().subscribe((data) => (this.invoices = data));
+    console.log();
   }
 }

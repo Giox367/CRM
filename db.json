@@ -71,15 +71,6 @@
       "age": "30",
       "roles": "",
       "id": 8
-    },
-    {
-      "email": "arasmidos@gmail.com",
-      "password": "$2a$10$Frbhx2t220dIto50CjJ6verlYDhWm34aiNv7J44oPIs1dq01F1IP.",
-      "firstname": "Aras",
-      "lastname": "Pourbijan ",
-      "age": "1",
-      "roles": "",
-      "id": 9
     }
   ],
   "client": [
@@ -169,6 +160,30 @@
       },
       "dataInserimento": "2019-06-01T08:11:01.911+00:00",
       "dataUltimaModifica": "2021-03-24T21:32:06.375+00:00"
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numeroFattura": "",
+      "nomeCliente": "",
+      "pagamento": "",
+      "id": 4
+    },
+    {
+      "data": "2022-11-18",
+      "importo": "99",
+      "numeroFattura": "33",
+      "nomeCliente": "Dimitri Lazuka",
+      "pagamento": "Non Pagata",
+      "id": 5
+    },
+    {
+      "data": "2022-11-09",
+      "importo": "500",
+      "numeroFattura": "420",
+      "nomeCliente": "Bruno Stano",
+      "pagamento": "Pagata",
+      "id": 6
     }
   ]
 }

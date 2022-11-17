@@ -22,12 +22,7 @@
           </div>
           <div class="form-floating my-3">
             <select class="form-select" name="nomeCliente" id="nomeCliente" ngModel>
-              <option selected="">*</option>
-              <option>Bruno Stano</option>
-              <option>Dimitri Lazuka</option>
-              <option>Giovanni Urso</option>
-              <option>Luigi Indaco</option>
-              <option>Aras Purbijan</option>
+              <option *ngFor="let client of clients" [value]="client">{{ client }}</option>
             </select>
             <label for="floatingPassword">Nome Cliente</label>
           </div>
