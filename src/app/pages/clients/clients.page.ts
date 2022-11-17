@@ -11,11 +11,10 @@ export class ClientsPage implements OnInit {
   client: Client[] = [];
   constructor(private http: HttpClient) {}
 
-  ngOnInit(): void {}
-
-  ngDoCheck(): void {
+  ngOnInit(): void {
     this.http.get(environment.urlAPI + 'client').subscribe((obj: any) => (this.client = obj));
   }
+
 
   deleteClient(id: number) {
     this.http.delete(environment.urlAPI + 'client/' + id);
