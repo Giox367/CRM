@@ -1035,6 +1035,14 @@
       "nomeCliente": "Dimitri Lazuka",
       "pagamento": "Non Pagata",
       "id": 5
+    },
+    {
+      "data": "2022-11-09",
+      "importo": "500",
+      "numeroFattura": "420",
+      "nomeCliente": "Bruno Stano",
+      "pagamento": "Pagata",
+      "id": 6
     }
   ]
 }
