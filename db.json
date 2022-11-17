@@ -808,6 +808,167 @@
         "dataInserimento": ""
       },
       "id": 32
+    },
+    {
+      "ragioneSociale": "a",
+      "partitaIva": "a",
+      "tipoCliente": "a",
+      "email": "a",
+      "pec": "a",
+      "telefono": "a",
+      "nomeContatto": "a",
+      "cognomeContatto": "a",
+      "telefonoContatto": "a",
+      "emailContatto": "a",
+      "indirizzoSede": {
+        "via": "a",
+        "civico": "a",
+        "cap": "a",
+        "Comune": {
+          "nome": "a",
+          "provincia": "a"
+        },
+        "dataInserimento": ""
+      },
+      "id": 33
+    },
+    {
+      "ragioneSociale": "a",
+      "partitaIva": "a",
+      "tipoCliente": "a",
+      "email": "a",
+      "pec": "a",
+      "telefono": "a",
+      "nomeContatto": "a",
+      "cognomeContatto": "a",
+      "telefonoContatto": "a",
+      "emailContatto": "a",
+      "indirizzoSede": {
+        "via": "a",
+        "civico": "a",
+        "cap": "a",
+        "Comune": {
+          "nome": "a",
+          "provincia": "a"
+        },
+        "dataInserimento": ""
+      },
+      "id": 34
+    },
+    {
+      "ragioneSociale": "a",
+      "partitaIva": "a",
+      "tipoCliente": "a",
+      "email": "a",
+      "pec": "a",
+      "telefono": "a",
+      "nomeContatto": "a",
+      "cognomeContatto": "a",
+      "telefonoContatto": "a",
+      "emailContatto": "a",
+      "indirizzoSede": {
+        "via": "a",
+        "civico": "a",
+        "cap": "a",
+        "Comune": {
+          "nome": "a",
+          "provincia": "a"
+        },
+        "dataInserimento": ""
+      },
+      "id": 35
+    },
+    {
+      "ragioneSociale": "a",
+      "partitaIva": "a",
+      "tipoCliente": "a",
+      "email": "a",
+      "pec": "a",
+      "telefono": "a",
+      "nomeContatto": "a",
+      "cognomeContatto": "a",
+      "telefonoContatto": "a",
+      "emailContatto": "a",
+      "indirizzoSede": {
+        "via": "a",
+        "civico": "a",
+        "cap": "a",
+        "Comune": {
+          "nome": "a",
+          "provincia": "a"
+        },
+        "dataInserimento": ""
+      },
+      "id": 36
+    },
+    {
+      "ragioneSociale": "a",
+      "partitaIva": "a",
+      "tipoCliente": "a",
+      "email": "a",
+      "pec": "a",
+      "telefono": "a",
+      "nomeContatto": "a",
+      "cognomeContatto": "a",
+      "telefonoContatto": "a",
+      "emailContatto": "a",
+      "indirizzoSede": {
+        "via": "a",
+        "civico": "a",
+        "cap": "a",
+        "Comune": {
+          "nome": "a",
+          "provincia": "a"
+        },
+        "dataInserimento": ""
+      },
+      "id": 37
+    },
+    {
+      "ragioneSociale": "",
+      "partitaIva": "e",
+      "tipoCliente": "e",
+      "email": "e",
+      "pec": "e",
+      "telefono": "e",
+      "nomeContatto": "e",
+      "cognomeContatto": "",
+      "telefonoContatto": "",
+      "emailContatto": "",
+      "indirizzoSede": {
+        "via": "",
+        "civico": "",
+        "cap": "",
+        "Comune": {
+          "nome": "",
+          "provincia": ""
+        },
+        "dataInserimento": ""
+      },
+      "id": 38
+    },
+    {
+      "ragioneSociale": "",
+      "partitaIva": "e",
+      "tipoCliente": "e",
+      "email": "e",
+      "pec": "e",
+      "telefono": "e",
+      "nomeContatto": "e",
+      "cognomeContatto": "",
+      "telefonoContatto": "",
+      "emailContatto": "",
+      "indirizzoSede": {
+        "via": "",
+        "civico": "",
+        "cap": "",
+        "Comune": {
+          "nome": "",
+          "provincia": ""
+        },
+        "dataInserimento": ""
+      },
+      "id": 39
     }
   ],
   "invoices": [

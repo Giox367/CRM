@@ -12,4 +12,8 @@ export class InvoiceSrvService {
   getInvoices() {
     return this.http.get<Invoice[]>(environment.urlAPI + 'invoices');
   }
+
+  addInvoice(invoice: Invoice) {
+    return this.http.post<Invoice>(environment.urlAPI + 'invoices', invoice);
+  }
 }

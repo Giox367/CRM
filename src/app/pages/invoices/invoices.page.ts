@@ -14,6 +14,5 @@ export class InvoicesPage implements OnInit {
 
   ngOnInit(): void {
     this.invoiceSrv.getInvoices().subscribe((data) => (this.invoices = data));
-    console.log(this.invoices);
   }
 }

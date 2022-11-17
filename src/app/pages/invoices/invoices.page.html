@@ -20,7 +20,7 @@
     <div class="col-md-4 col-lg-3 col-12" *ngFor="let item of invoices">
       <div class="card mb-3 border border-primary rounded-3 border-3">
         <div class="card-body">
-          <h5 class="card-title pe-3">"Nome cliente"</h5>
+          <h5 class="card-title pe-3">Nome: {{item.nomeCliente}}</h5>
 
           <p class="card-text">Importo: {{item.importo}}</p>
           <p class="card-text">Stato: {{item.stato}}</p>
