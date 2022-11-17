@@ -12,8 +12,7 @@ export class InvoicesPage implements OnInit {
 
   constructor(private invoiceSrv: InvoiceSrvService) {}
 
-  ngOnInit(): void {}
-  ngAfterContentInit(): void {
+  ngOnInit(): void {
     this.invoiceSrv.getInvoices().subscribe((data) => (this.invoices = data));
     console.log();
   }
