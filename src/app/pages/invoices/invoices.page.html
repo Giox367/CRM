@@ -3,13 +3,12 @@
     <div class="col text-center">
       <h1>Lista Fatture</h1>
     </div>
-
     <!-- col-->
   </div>
   <!-- row-->
   <div class="row mb-5">
-    <div class="col">
-      <button type="button" class="btn btn-primary d-flex justify-content-start" data-bs-toggle="modal" data-bs-target="#modal-add-invoice">
+    <div class="col fluid-left ms-5">
+      <button type="button" class="btn btn-success justify-content-center" data-bs-toggle="modal" data-bs-target="#modal-add-invoice">
         Aggiungi Fattura
       </button>
     </div>
@@ -17,8 +16,8 @@
   </div>
   <!-- row-->
   <div class="row">
-    <div class="col-md-4 col-lg-3 col-12" *ngFor="let item of invoices">
-      <div class="card mb-3 border border-primary rounded-3 border-3">
+    <div class="col-10 col-md-6 col-lg-4 mb-2 mx-auto" *ngFor="let item of invoices">
+      <div class="card mb-3 border border-light rounded-3 border-2">
         <div class="card-body">
           <h5 class="card-title pe-3">Nome: {{item.nomeCliente}}</h5>
 
@@ -27,7 +26,7 @@
           <p class="card-text">Data: {{item.data}}</p>
           <p class="card-text">Ultima modifica: {{item.dataUltimaModifica}}</p>
           <div class="col d-flex align-items-center justify-content-between">
-            <button type="button" class="btn btn-primary">Modifica</button>
+            <button type="button" class="btn btn-light border border-1 border-secondary">Modifica</button>
             <img src="https://haibisognodiuncodiceabarre.it/wp-content/uploads/sites/9/2014/09/ITF-14-With-Bearer-Bars.jpg" alt="barcode" />
           </div>
         </div>

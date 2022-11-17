@@ -71,6 +71,15 @@
       "age": "30",
       "roles": "",
       "id": 8
+    },
+    {
+      "email": "arasmidos@gmail.com",
+      "password": "$2a$10$Frbhx2t220dIto50CjJ6verlYDhWm34aiNv7J44oPIs1dq01F1IP.",
+      "firstname": "Aras",
+      "lastname": "Pourbijan ",
+      "age": "1",
+      "roles": "",
+      "id": 9
     }
   ],
   "client": [

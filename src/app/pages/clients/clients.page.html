@@ -6,7 +6,7 @@
         <div class="col">
           <button
             type="button"
-            class="btn btn-primary d-flex justify-content-start"
+            class="btn btn-success mx-2 d-flex justify-content-start"
             data-bs-toggle="modal"
             data-bs-target="#modal-add-client"
           >
@@ -38,7 +38,7 @@
             <td>{{c.partitaIva}}</td>
             <td>{{c.email}}</td>
             <td><button type="button" class="btn btn-outline-success">Dettagli Cliente</button></td>
-            <td><button type="button" class="btn btn-outline-warning">Modifica</button></td>
+            <td><button type="button" class="btn btn-light border border-1 border-secondary">Modifica</button></td>
             <td><button type="button" class="btn btn-danger" (click)="deleteClient(i)">Elimina</button></td>
           </tr>
         </tbody>
