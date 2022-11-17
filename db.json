@@ -62,6 +62,15 @@
       "age": "24",
       "roles": "",
       "id": 7
+    },
+    {
+      "email": "giovanni@urso.it",
+      "password": "$2a$10$AkCY5QJkIxcqSz3BVOmRGedWp6j5g9ZKghxbW.D36XMi1u2KUB7R2",
+      "firstname": "Giovanni",
+      "lastname": "Urso",
+      "age": "30",
+      "roles": "",
+      "id": 8
     }
   ],
   "client": [

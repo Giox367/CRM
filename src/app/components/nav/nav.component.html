@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid bg-light">
   <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
       <li><a href="#" class="nav-link px-2 link-secondary" [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a></li>
@@ -8,13 +8,23 @@
     </ul>
 
     <div class="col-md-3 text-end">
-      <div class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 text-center" *ngIf="this.authService.isLogged">
-        <b> Ciao, {{ this.authService.isLogged.firstname }}</b>
-        <!-- <button class="mx-3" (click)="logout()">logout</button> -->
+      <div
+        class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 text-center d-flex align-items-center justify-content-end"
+        *ngIf="this.authService.isLogin"
+      >
+        <b> Ciao, {{ this.authService.isLogged.user?.firstname }}</b>
+        <button class="mx-3 btn btn-light border border-3" (click)="logout()">Logout</button>
       </div>
-      <div *ngIf="!this.authService.isLogged">
-        <button type="button" class="btn btn-primary me-2" [routerLink]="['/login']" routerLinkActive="router-link-active">Accedi</button>
-        <button type="button" class="btn btn-danger" [routerLink]="['/register']" routerLinkActive="router-link-active">Registrati</button>
+      <div *ngIf="!this.authService.isLogin">
+        <button
+          type="button"
+          class="btn btn-light border border-success me-2"
+          [routerLink]="['/login']"
+          routerLinkActive="router-link-active"
+        >
+          Accedi
+        </button>
+        <button type="button" class="btn btn-success" [routerLink]="['/register']" routerLinkActive="router-link-active">Registrati</button>
       </div>
     </div>
   </header>

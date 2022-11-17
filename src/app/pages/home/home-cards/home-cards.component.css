@@ -3,19 +3,19 @@
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
   background: rgb(255, 255, 255);
-  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(244, 250, 234) 36%, rgb(251, 249, 249) 68%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(0deg, rgb(232, 232, 232), white);
   box-shadow: 6px 9px 7px -6px rgba(0, 0, 0, 0.26);
   left: 2px;
   top: 1px;
 }
 
-.card .btn-primary {
+/* .card .btn-primary {
   background: rgb(116, 25, 43);
   background: linear-gradient(0deg, rgb(109, 26, 43) 0%, rgba(135, 48, 250, 1) 53%, rgb(135, 72, 84) 100%);
   padding-inline: 5%;
   border: none;
   border-radius: 3rem;
-}
+} */
 
 .cards3 {
   opacity: 0;

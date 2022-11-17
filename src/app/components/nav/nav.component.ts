@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from 'src/app/auth/auth.service';
+import { UserToken } from 'src/app/interfaces/user-token';
 
 @Component({
   selector: 'app-nav',
@@ -14,7 +15,7 @@ export class NavComponent implements OnInit {
 
   logout() {
     localStorage.removeItem('isLogged');
-    this.authService.isLogged = null;
+    this.authService.isLogin = false;
     this.router.navigate(['login']);
   }
 }

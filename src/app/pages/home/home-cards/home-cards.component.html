@@ -1,44 +1,51 @@
-<div class="row w-75 mx-auto">
-  <div class="card col-lg-3 col-12 m-auto my-2 cards3">
-    <img
-      src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-      class="card-img-top"
-      alt="..."
-    />
-    <div class="card-body text-center">
-      <p class="card-text">Sezione dedicata alle fatture, inserisci,visiona e modifica le fatture presenti nel sistema</p>
-      <button type="button" [routerLink]="['/invoices']" routerLinkActive="router-link-active" class="btn btn-primary">
-        Inserimento Fatture
-      </button>
+<div class="container">
+  <div class="row mx-auto">
+    <div class="card col-lg-3 col-12 m-auto my-2 cards3">
+      <br />
+      <img
+        src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body text-center">
+        <button type="button" [routerLink]="['/invoices']" routerLinkActive="router-link-active" class="btn btn-outline-warning text-dark">
+          Inserimento Fatture
+        </button>
+        <br /><br />
+        <p class="card-text">Sezione dedicata alle fatture, inserisci,visiona e modifica le fatture presenti nel sistema</p>
+      </div>
     </div>
-  </div>
-  <div class="card col-lg-3 col-12 mx-auto my-2 cards3 anim2card">
-    <img
-      src="https://plus.unsplash.com/premium_photo-1664191866089-9a1707d524dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
-      class="card-img-top"
-      alt="..."
-    />
-    <div class="card-body text-center">
-      <p class="card-text">
-        Sezione dedicata ai clienti, inserisci nuovi clienti, modifica quelli esistenti e recuperai dati che ti servono in modo rapido e
-        strutturato
-      </p>
-      <button type="button" [routerLink]="['/clients']" routerLinkActive="router-link-active" class="btn btn-primary">
-        Gestione Clienti
-      </button>
+    <div class="card col-lg-3 col-12 mx-auto my-2 cards3 anim2card">
+      <br />
+      <img
+        src="https://plus.unsplash.com/premium_photo-1664191866089-9a1707d524dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body text-center">
+        <button type="button" [routerLink]="['/clients']" routerLinkActive="router-link-active" class="btn btn-outline-warning text-dark">
+          Gestione Clienti
+        </button>
+        <br /><br />
+        <p class="card-text">
+          Sezione dedicata ai clienti, inserisci nuovi clienti, modifica quelli esistenti e recuperai dati che ti servono in modo rapido e
+          strutturato
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="card col-lg-3 col-12 mx-auto my-2 cards3 anim3card">
-    <img
-      src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
-      class="card-img-top"
-      alt="..."
-    />
-    <div class="card-body text-center">
-      <p class="card-text">Sezione dedicata al team registrato, vedi i permessi e tutti gli utenti registrati</p>
-      <button type="button" [routerLink]="['/users']" routerLinkActive="router-link-active" class="btn btn-primary">
-        Utenti Registrati
-      </button>
+    <div class="card col-lg-3 col-12 mx-auto my-2 cards3 anim3card">
+      <br />
+      <img
+        src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body text-center">
+        <button type="button" [routerLink]="['/users']" routerLinkActive="router-link-active" class="btn btn-outline-warning text-dark">
+          Utenti Registrati</button
+        ><br /><br />
+        <p class="card-text">Sezione dedicata al team registrato, vedi i permessi e tutti gli utenti registrati</p>
+      </div>
     </div>
   </div>
 </div>

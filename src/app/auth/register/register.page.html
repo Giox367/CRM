@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row d-flex justify-content-center d-flex align-items-center">
     <div class="col-lg-6 col-md-8 col-12">
-      <form #f="ngForm" (ngSubmit)="onSubmit()" class="border border-primary rounded-3 border-1 p-5 my-5">
+      <form #f="ngForm" (ngSubmit)="onSubmit()" class="border border-success bg-light rounded-3 border-1 p-5 my-5">
         <h2 class="text-center mb-4">Registrati</h2>
         <div class="row">
           <div class="col-5">
@@ -32,8 +32,8 @@
           <input ngModel name="password" type="password" class="form-control" id="password" />
         </div>
         <input type="hidden" for="roles" ngModel name="roles" value="ROLE_USER" />
-        <button type="submit" class="btn btn-danger col-12">Registrati</button>
-        <h6 class="text-center mt-4">o <a href="" [routerLink]="['/login']">Accedi</a></h6>
+        <button type="submit" class="btn btn-success mt-3 col-12">Registrati</button>
+        <h6 class="text-center mt-4">o <a class="text-dark" [routerLink]="['/login']">Accedi</a></h6>
       </form>
     </div>
   </div>

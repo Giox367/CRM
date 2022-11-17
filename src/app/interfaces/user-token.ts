@@ -1,6 +1,6 @@
-export interface UserToken {
-  accessToken: string;
-  user: {
+export class UserToken {
+  accessToken?: string;
+  user?: {
     id: number;
     firstname: string;
     lastname: string;
