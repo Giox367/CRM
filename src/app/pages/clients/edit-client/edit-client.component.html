@@ -1,0 +1,109 @@
+<!-- Modal -->
+<div class="modal fade" id="modal-edit-client" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Aggiungi cliente</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form #f="ngForm" (ngSubmit)="onSubmit()">
+        <div class="modal-body">
+          <div class="row">
+            <div class="form-floating col-6 my-3">
+              <input ngModel name="ragioneSociale" id="startDate" class="form-control" type="text" />
+              <label for="startDate">Ragione Sociale</label>
+            </div>
+            <div class="form-floating col-6 my-3">
+              <input ngModel name="partitaIva" type="text" class="form-control" id="floatingInput" />
+              <label for="floatingInput">P.Iva</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-floating col-6 my-3">
+              <input ngModel name="tipoCliente" type="text" class="form-control" id="floatingInput" />
+              <label for="floatingInput">Tipo Cliente</label>
+            </div>
+
+            <div class="form-floating col-6 my-3">
+              <input ngModel name="email" type="text" class="form-control" id="floatingInput" />
+              <label for="floatingInput">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-floating col-6 my-3">
+              <input ngModel name="pec" type="text" class="form-control" id="floatingInput" />
+              <label for="floatingInput">PEC</label>
+            </div>
+
+            <div class="form-floating col-6 my-3">
+              <input ngModel name="telefono" type="text" class="form-control" id="floatingInput" />
+              <label for="floatingInput">Telefono</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-floating col-6 my-3">
+              <input ngModel name="nomeContatto" type="text" class="form-control" id="floatingInput" />
+              <label for="floatingInput">Nome Contatto</label>
+            </div>
+
+            <div class="form-floating col-6 my-3">
+              <input ngModel name="cognomeContatto" type="text" class="form-control" id="floatingInput" />
+              <label for="floatingInput">Cognome Contatto</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-floating col-6 my-3">
+              <input ngModel name="telefonoContatto" type="text" class="form-control" id="floatingInput" />
+              <label for="floatingInput">Telefono Contatto</label>
+            </div>
+
+            <div class="form-floating col-6 my-3">
+              <input ngModel name="emailContatto" type="text" class="form-control" id="floatingInput" />
+              <label for="floatingInput">Email Contatto</label>
+            </div>
+          </div>
+          <div class="d-inline" ngModelGroup="indirizzoSede">
+            <div class="form-floating my-3">
+              <p for="floatingInput">Indirizzo Sede</p>
+            </div>
+            <div class="row">
+              <div class="form-floating col-4 my-3">
+                <input ngModel name="via" type="text" class="form-control" id="floatingInput" />
+                <label for="floatingInput">Via</label>
+              </div>
+              <div class="form-floating col-2 my-3">
+                <input ngModel name="civico" type="text" class="form-control" id="floatingInput" />
+                <label for="floatingInput">Civico</label>
+              </div>
+              <div class="form-floating col-2 my-3">
+                <input ngModel name="cap" type="text" class="form-control" id="floatingInput" />
+                <label for="floatingInput">Cap</label>
+              </div>
+
+              <div ngModelGroup="Comune">
+                <div class="row">
+                  <div class="form-floating col-2 my-3">
+                    <input ngModel name="nome" type="text" class="form-control" id="floatingInput" />
+                    <label for="floatingInput">Comune</label>
+                  </div>
+                  <div class="form-floating col-2 my-3">
+                    <input ngModel name="provincia" type="text" class="form-control" id="floatingInput" />
+                    <label for="floatingInput">Provincia</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-floating col-12 my-3">
+              <input ngModel name="dataInserimento" id="startDate" class="form-control" type="date" />
+              <label for="startDate">Data Inserimento</label>
+            </div>
+            <div class="modal-footer">
+              <button type="button" data-bs-dismiss="modal" class="btn btn-outline-light">Non modificare</button>
+              <button type="submit" data-bs-dismiss="modal" class="btn btn-primary">Modifica Cliente</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

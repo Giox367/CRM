@@ -9,7 +9,6 @@ import { UsersPage } from './pages/users/users.page';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ClientsPage } from './pages/clients/clients.page';
-
 import { HttpClientModule } from '@angular/common/http';
 import { InvoicesPage } from './pages/invoices/invoices.page';
 import { AuthModule } from './auth/auth.module';
@@ -29,7 +28,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NavComponent,
     FooterComponent,
     ClientsPage,
-
     InvoicesPage,
     InvoicesDetailsPage,
     AddInvoiceComponent,

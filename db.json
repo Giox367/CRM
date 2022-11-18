@@ -19,15 +19,6 @@
       "id": 9
     },
     {
-      "email": "ada@asdas.ad",
-      "password": "$2a$10$LtIsvrb91oBwnqVCCUJVJOfrljMcB8Ub1Fxoi4ZvwLGTXl0YvuFP2",
-      "firstname": "ma ",
-      "lastname": "bisogna",
-      "age": "231",
-      "roles": "",
-      "id": 10
-    },
-    {
       "email": "bruno@stano.it",
       "password": "$2a$10$vDq7osA3w7DfTGlcZkba.OlDeP2st6qt3gPBdpyXXb4spXsT5EmRC",
       "firstname": "Bruno",
@@ -35,6 +26,15 @@
       "age": "28",
       "roles": "",
       "id": 12
+    },
+    {
+      "email": "bruno@bruno.it",
+      "password": "$2a$10$Np3WOqigFCOwWoU/veIdsuVgM.1soJ.dQZLLvkDGoe2/bVPRtWewa",
+      "firstname": "Bruno",
+      "lastname": "Stano",
+      "age": "28",
+      "roles": "",
+      "id": 13
     }
   ],
   "client": [
