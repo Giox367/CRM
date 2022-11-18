@@ -31,7 +31,9 @@
           <p class="card-text">Data: {{item.data}}</p>
           <p class="card-text">Ultima modifica: {{item.dataUltimaModifica}}</p>
           <div class="col d-flex align-items-center justify-content-between">
-            <button type="button" class="btn btn-outline-warning text-dark">Modifica</button>
+            <button type="button" class="btn btn-outline-warning text-dark" data-bs-toggle="modal" data-bs-target="#modal-edit-invoice">
+              Modifica
+            </button>
             <img src="https://haibisognodiuncodiceabarre.it/wp-content/uploads/sites/9/2014/09/ITF-14-With-Bearer-Bars.jpg" alt="barcode" />
           </div>
         </div>
@@ -44,3 +46,4 @@
 <!--  container -->
 
 <app-add-invoice></app-add-invoice>
+<app-edit-invoice></app-edit-invoice>

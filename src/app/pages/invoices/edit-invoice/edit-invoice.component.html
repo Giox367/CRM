@@ -1,40 +1,48 @@
 <!-- Modal -->
-<div class="modal fade" id="modal-add-invoice" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div
+  class="modal fade"
+  id="modal-edit-invoice"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+  *ngFor="let item of invoiceSrv.invoices; let i = index"
+>
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Aggiungi invoice</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modifica invoice</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <form (ngSubmit)="onSubmit()" #invoice="ngForm">
         <div class="modal-body">
           <div class="form-floating my-3">
             <input name="data" id="startDate" class="form-control" type="date" ngModel />
-            <label for="startDate">Data</label>
+            <label for="startDate"> {{ item.data }}</label>
           </div>
           <div class="form-floating my-3">
             <input type="text" name="importo" class="form-control" id="floatingPassword" placeholder="Password" ngModel />
-            <label for="floatingPassword">Importo</label>
+            <label for="floatingPassword">{{ item.importo }}</label>
           </div>
           <div class="form-floating my-3">
             <input type="text" name="numeroFattura" class="form-control" id="floatingInput" ngModel placeholder="name@example.com" />
-            <label for="floatingInput">Numero Fattura</label>
+            <label for="floatingInput">{{ item.id }}</label>
           </div>
           <div class="form-floating my-3">
             <select class="form-select" name="nomeCliente" id="nomeCliente" ngModel>
-              <option *ngFor="let client of clients" [value]="client">{{ client }}</option>
+              <option></option>
             </select>
             <label for="floatingPassword">Nome Cliente</label>
           </div>
           <div class="form-floating my-3">
             <select class="form-select" ngModel id="pagamento" name="pagamento">
-              <option *ngFor="let stato of pagamento" [value]="pagamento">{{ stato }}</option>
+              <option></option>
             </select>
-            <label for="floatingPassword">Stato pagamento</label>
+            <label for="floatingPassword">{{ item.stato }}</label>
           </div>
         </div>
         <div class="modal-footer">
-          <button type="submit" data-bs-dismiss="modal" class="btn btn-success">Aggiungi Fattura</button>
+          <button type="submit" data-bs-dismiss="modal" class="btn btn-success">Modifica Fattura</button>
+          <button type="submit" data-bs-dismiss="modal" class="btn btn-success">Annulla Modifica</button>
         </div>
       </form>
     </div>

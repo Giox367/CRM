@@ -26,15 +26,6 @@
       "age": "231",
       "roles": "",
       "id": 10
-    },
-    {
-      "email": "asd@asd.com",
-      "password": "$2a$10$Qi8T/WXyCaw/EX9oBvGZ3umOwnDD7q0OsTuTd3MCCYSy9607Fliei",
-      "firstname": "cambiare",
-      "lastname": "pagina :(",
-      "age": "1",
-      "roles": "",
-      "id": 11
     }
   ],
   "client": [
@@ -62,7 +53,7 @@
       "id": 1
     },
     {
-      "ragioneSociale": "qweqweqw",
+      "ragioneSociale": "kk",
       "partitaIva": "",
       "tipoCliente": "",
       "email": "",
@@ -82,7 +73,7 @@
         },
         "dataInserimento": ""
       },
-      "id": 3
+      "id": 2
     }
   ],
   "invoices": [
@@ -164,6 +155,14 @@
       "nomeCliente": "",
       "pagamento": "",
       "id": 8
+    },
+    {
+      "data": "",
+      "importo": "9000000",
+      "numeroFattura": "",
+      "nomeCliente": "",
+      "pagamento": "",
+      "id": 9
     }
   ]
 }
