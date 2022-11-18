@@ -11,7 +11,7 @@ import { UsersService } from './users.service';
 export class UsersPage implements OnInit {
   [x: string]: any;
   user: User[] = [];
-  constructor(private http: HttpClient, public service:UsersService) {}
+  constructor(private http: HttpClient, public service: UsersService) {}
 
   ngOnInit(): void {
     this.http.get(environment.urlAPI + 'users').subscribe((obj: any) => (this.user = obj));

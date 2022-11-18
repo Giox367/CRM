@@ -8,6 +8,33 @@
       "age": "24",
       "roles": "",
       "id": 7
+    },
+    {
+      "email": "awdaw@dasd.ca",
+      "password": "$2a$10$qvwaKQQhJAdHFBZsM6tGRelLnZWLrOMtPA23VyWbCWqTPs10dkeFW",
+      "firstname": "si ",
+      "lastname": "cancellano",
+      "age": "2",
+      "roles": "",
+      "id": 9
+    },
+    {
+      "email": "ada@asdas.ad",
+      "password": "$2a$10$LtIsvrb91oBwnqVCCUJVJOfrljMcB8Ub1Fxoi4ZvwLGTXl0YvuFP2",
+      "firstname": "ma ",
+      "lastname": "bisogna",
+      "age": "231",
+      "roles": "",
+      "id": 10
+    },
+    {
+      "email": "bruno@stano.it",
+      "password": "$2a$10$vDq7osA3w7DfTGlcZkba.OlDeP2st6qt3gPBdpyXXb4spXsT5EmRC",
+      "firstname": "Bruno",
+      "lastname": "Stano",
+      "age": "28",
+      "roles": "",
+      "id": 12
     }
   ],
   "client": [
@@ -137,6 +164,94 @@
       "nomeCliente": "",
       "pagamento": "",
       "id": 8
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numeroFattura": "",
+      "nomeCliente": "",
+      "pagamento": "",
+      "id": 9
+    },
+    {
+      "data": "2022-11-18",
+      "importo": "22",
+      "numeroFattura": "78",
+      "nomeCliente": "7",
+      "pagamento": "pagata,non pagata",
+      "id": 10
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numeroFattura": "",
+      "nomeCliente": "7",
+      "pagamento": "",
+      "id": 11
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numeroFattura": "",
+      "nomeCliente": "Dimitri",
+      "pagamento": "",
+      "id": 12
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numero": "",
+      "nomeCliente": "",
+      "pagamento": "pagata,non pagata",
+      "id": 13
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numero": "",
+      "nomeCliente": "",
+      "pagamento": "pagata",
+      "id": 14
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numero": "",
+      "nomeCliente": "",
+      "pagamento": "PAGATA",
+      "id": 15
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numero": "",
+      "nomeCliente": "",
+      "stato": "PAGATA",
+      "id": 16
+    },
+    {
+      "data": "2022-11-18",
+      "importo": "22",
+      "numero": "1",
+      "nomeCliente": "Bruno",
+      "stato": "PAGATA",
+      "id": 17
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numero": "",
+      "nomeCliente": "BrunoStano",
+      "stato": "",
+      "id": 18
+    },
+    {
+      "data": "",
+      "importo": "",
+      "numero": "",
+      "nomeCliente": "Bruno Stano",
+      "stato": "",
+      "id": 19
     }
   ]
 }
