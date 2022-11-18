@@ -9,9 +9,9 @@ import { UsersService } from './users.service';
   styleUrls: ['./users.page.css'],
 })
 export class UsersPage implements OnInit {
-[x: string]: any;
+  [x: string]: any;
   user: User[] = [];
-  constructor(private http: HttpClient, public service:UsersService) {}
+  constructor(private http: HttpClient, public service: UsersService) {}
 
   ngOnInit(): void {
     this.http.get(environment.urlAPI + 'users').subscribe((obj: any) => (this.user = obj));
@@ -21,6 +21,5 @@ export class UsersPage implements OnInit {
     this.service.getUser().subscribe((obj: any) => (this.service.users = obj));
     this.service.deleteUser(obj.id).subscribe();
     // console.log(this.service.deleteUser(user.id));
-
   }
 }

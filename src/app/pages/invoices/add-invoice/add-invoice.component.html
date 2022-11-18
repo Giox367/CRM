@@ -17,18 +17,21 @@
             <label for="floatingPassword">Importo</label>
           </div>
           <div class="form-floating my-3">
-            <input type="text" name="numeroFattura" class="form-control" id="floatingInput" ngModel placeholder="name@example.com" />
+            <input type="text" name="numero" class="form-control" id="floatingInput" ngModel placeholder="name@example.com" />
             <label for="floatingInput">Numero Fattura</label>
           </div>
           <div class="form-floating my-3">
             <select class="form-select" name="nomeCliente" id="nomeCliente" ngModel>
-              <option *ngFor="let client of clients" [value]="client">{{ client }}</option>
+              <option *ngFor="let client of user" [value]="client.firstname + space + client.lastname">
+                {{ client.firstname }} {{ client.lastname }}
+              </option>
             </select>
             <label for="floatingPassword">Nome Cliente</label>
           </div>
           <div class="form-floating my-3">
-            <select class="form-select" ngModel id="pagamento" name="pagamento">
-              <option *ngFor="let stato of pagamento" [value]="pagamento">{{ stato }}</option>
+            <select class="form-select" ngModel id="pagamento" name="stato">
+              <option value="PAGATA">Pagata</option>
+              <option value="NON PAGATA">Non pagata</option>
             </select>
             <label for="floatingPassword">Stato pagamento</label>
           </div>
