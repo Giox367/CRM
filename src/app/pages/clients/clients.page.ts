@@ -1,5 +1,5 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Client } from 'src/app/interfaces/client';
 import { ClientService } from './client.service';
 
 @Component({
@@ -7,10 +7,16 @@ import { ClientService } from './client.service';
   styleUrls: ['./clients.page.css'],
 })
 export class ClientsPage implements OnInit {
-  constructor(private http: HttpClient, public clientService: ClientService) {}
+  clientEdit?: Client;
+
+  constructor(public clientService: ClientService) {}
 
   ngOnInit(): void {
     this.clientService.getClients().subscribe((obj: any) => (this.clientService.client = obj));
+  }
+
+  onDetails(id: number) {
+    this.clientService.getClient(id).subscribe((obj: any) => (this.clientService.clientEdit = obj));
   }
 
   deleteClient(obj: any) {

@@ -1,4 +1,5 @@
 export interface Client {
+  id: number;
   ragioneSociale: string;
   partitaIva: number;
   tipoCliente: string;

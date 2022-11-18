@@ -26,43 +26,11 @@
       "age": "28",
       "roles": "",
       "id": 12
-    },
-    {
-      "email": "bruno@bruno.it",
-      "password": "$2a$10$Np3WOqigFCOwWoU/veIdsuVgM.1soJ.dQZLLvkDGoe2/bVPRtWewa",
-      "firstname": "Bruno",
-      "lastname": "Stano",
-      "age": "28",
-      "roles": "",
-      "id": 13
     }
   ],
   "client": [
     {
-      "ragioneSociale": "Bruno-Romano SPA - TEST",
-      "partitaIva": "14812266616",
-      "tipoCliente": "SRL",
-      "email": "rosalino.caruso@gmail.com",
-      "pec": "antonio.damico@gmail.com",
-      "telefono": "+38 855 62 44 5685",
-      "nomeContatto": "Sarita",
-      "cognomeContatto": "Serr",
-      "telefonoContatto": "380.260.3225",
-      "emailContatto": "armando.martinelli@hotmail.com",
-      "indirizzoSede": {
-        "via": "Contrada Gastone 4, Piano 4",
-        "civico": "698",
-        "cap": "38615",
-        "comune": {
-          "nome": "LASTRA A SIGNA",
-          "provincia": "FI"
-        }
-      },
-      "dataInserimento": "2019-06-01T08:11:01.911+00:00",
-      "id": 1
-    },
-    {
-      "ragioneSociale": "qweqweqw",
+      "ragioneSociale": "",
       "partitaIva": "",
       "tipoCliente": "",
       "email": "",
@@ -82,7 +50,30 @@
         },
         "dataInserimento": ""
       },
-      "id": 3
+      "id": 4
+    },
+    {
+      "ragioneSociale": "qweqwe",
+      "partitaIva": "",
+      "tipoCliente": "",
+      "email": "",
+      "pec": "",
+      "telefono": "",
+      "nomeContatto": "",
+      "cognomeContatto": "",
+      "telefonoContatto": "",
+      "emailContatto": "",
+      "indirizzoSede": {
+        "via": "",
+        "civico": "",
+        "cap": "",
+        "Comune": {
+          "nome": "",
+          "provincia": ""
+        },
+        "dataInserimento": ""
+      },
+      "id": 6
     }
   ],
   "invoices": [

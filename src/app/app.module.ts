@@ -17,8 +17,8 @@ import { AddInvoiceComponent } from './pages/invoices/add-invoice/add-invoice.co
 import { HomeCardsComponent } from './pages/home/home-cards/home-cards.component';
 import { HomeJoinUsComponent } from './pages/home/home-join-us/home-join-us.component';
 import { AddclientComponent } from './pages/clients/addclient/addclient.component';
-import { ClientsModule } from './pages/clients/clients.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { EditClientComponent } from './pages/clients/edit-client/edit-client.component';
 
 @NgModule({
   declarations: [
@@ -34,8 +34,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomeCardsComponent,
     HomeJoinUsComponent,
     AddclientComponent,
+    EditClientComponent,
   ],
-  imports: [BrowserModule, AuthModule, AppRoutingModule, NgbModule, HttpClientModule, ClientsModule, FormsModule, ReactiveFormsModule],
+  imports: [BrowserModule, AuthModule, AppRoutingModule, NgbModule, HttpClientModule, FormsModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
