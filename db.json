@@ -8,33 +8,6 @@
       "age": "24",
       "roles": "",
       "id": 7
-    },
-    {
-      "email": "awdaw@dasd.ca",
-      "password": "$2a$10$qvwaKQQhJAdHFBZsM6tGRelLnZWLrOMtPA23VyWbCWqTPs10dkeFW",
-      "firstname": "si ",
-      "lastname": "cancellano",
-      "age": "2",
-      "roles": "",
-      "id": 9
-    },
-    {
-      "email": "ada@asdas.ad",
-      "password": "$2a$10$LtIsvrb91oBwnqVCCUJVJOfrljMcB8Ub1Fxoi4ZvwLGTXl0YvuFP2",
-      "firstname": "ma ",
-      "lastname": "bisogna",
-      "age": "231",
-      "roles": "",
-      "id": 10
-    },
-    {
-      "email": "asd@asd.com",
-      "password": "$2a$10$Qi8T/WXyCaw/EX9oBvGZ3umOwnDD7q0OsTuTd3MCCYSy9607Fliei",
-      "firstname": "cambiare",
-      "lastname": "pagina :(",
-      "age": "1",
-      "roles": "",
-      "id": 11
     }
   ],
   "client": [

@@ -9,7 +9,7 @@ import { UsersService } from './users.service';
   styleUrls: ['./users.page.css'],
 })
 export class UsersPage implements OnInit {
-[x: string]: any;
+  [x: string]: any;
   user: User[] = [];
   constructor(private http: HttpClient, public service:UsersService) {}
 
@@ -18,9 +18,9 @@ export class UsersPage implements OnInit {
   }
 
   destroyUser(obj: User) {
-    this.service.getUser().subscribe((obj: any) => (this.service.users = obj));
     this.service.deleteUser(obj.id).subscribe();
+    this.service.getUser().subscribe((obj: any) => (this.service.users = obj));
+    this.http.get(environment.urlAPI + 'users').subscribe((obj: any) => (this.user = obj));
     // console.log(this.service.deleteUser(user.id));
-
   }
 }

@@ -12,11 +12,11 @@ export class UsersService {
   constructor(private http: HttpClient) {}
 
     getUser() {
-      return this.http.get(environment.urlAPI + 'users');
+      return this.http.get<User>(environment.urlAPI + 'users');
     }
 
     deleteUser(id: Number) {
-      return this.http.delete(environment.urlAPI + 'users/' + id);
+      return this.http.delete<User>(environment.urlAPI + 'users/' + id);
     }
 
 
