@@ -19,6 +19,7 @@ import { HomeJoinUsComponent } from './pages/home/home-join-us/home-join-us.comp
 import { AddclientComponent } from './pages/clients/addclient/addclient.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EditClientComponent } from './pages/clients/edit-client/edit-client.component';
+import { EditInvoiceComponent } from './pages/invoices/edit-invoice/edit-invoice.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { EditClientComponent } from './pages/clients/edit-client/edit-client.com
     HomeJoinUsComponent,
     AddclientComponent,
     EditClientComponent,
+    EditInvoiceComponent,
   ],
   imports: [BrowserModule, AuthModule, AppRoutingModule, NgbModule, HttpClientModule, FormsModule, ReactiveFormsModule],
   providers: [],

@@ -25,12 +25,35 @@
       "lastname": "Stano",
       "age": "28",
       "roles": "",
-      "id": 12
+      "id": 10
     }
   ],
   "client": [
     {
-      "ragioneSociale": "",
+      "ragioneSociale": "Bruno-Romano SPA - TEST",
+      "partitaIva": "14812266616",
+      "tipoCliente": "SRL",
+      "email": "rosalino.caruso@gmail.com",
+      "pec": "antonio.damico@gmail.com",
+      "telefono": "+38 855 62 44 5685",
+      "nomeContatto": "Sarita",
+      "cognomeContatto": "Serr",
+      "telefonoContatto": "380.260.3225",
+      "emailContatto": "armando.martinelli@hotmail.com",
+      "indirizzoSede": {
+        "via": "Contrada Gastone 4, Piano 4",
+        "civico": "698",
+        "cap": "38615",
+        "comune": {
+          "nome": "LASTRA A SIGNA",
+          "provincia": "FI"
+        }
+      },
+      "dataInserimento": "2019-06-01T08:11:01.911+00:00",
+      "id": 1
+    },
+    {
+      "ragioneSociale": "kk",
       "partitaIva": "",
       "tipoCliente": "",
       "email": "",
@@ -158,91 +181,11 @@
     },
     {
       "data": "",
-      "importo": "",
+      "importo": "9000000",
       "numeroFattura": "",
       "nomeCliente": "",
       "pagamento": "",
       "id": 9
-    },
-    {
-      "data": "2022-11-18",
-      "importo": "22",
-      "numeroFattura": "78",
-      "nomeCliente": "7",
-      "pagamento": "pagata,non pagata",
-      "id": 10
-    },
-    {
-      "data": "",
-      "importo": "",
-      "numeroFattura": "",
-      "nomeCliente": "7",
-      "pagamento": "",
-      "id": 11
-    },
-    {
-      "data": "",
-      "importo": "",
-      "numeroFattura": "",
-      "nomeCliente": "Dimitri",
-      "pagamento": "",
-      "id": 12
-    },
-    {
-      "data": "",
-      "importo": "",
-      "numero": "",
-      "nomeCliente": "",
-      "pagamento": "pagata,non pagata",
-      "id": 13
-    },
-    {
-      "data": "",
-      "importo": "",
-      "numero": "",
-      "nomeCliente": "",
-      "pagamento": "pagata",
-      "id": 14
-    },
-    {
-      "data": "",
-      "importo": "",
-      "numero": "",
-      "nomeCliente": "",
-      "pagamento": "PAGATA",
-      "id": 15
-    },
-    {
-      "data": "",
-      "importo": "",
-      "numero": "",
-      "nomeCliente": "",
-      "stato": "PAGATA",
-      "id": 16
-    },
-    {
-      "data": "2022-11-18",
-      "importo": "22",
-      "numero": "1",
-      "nomeCliente": "Bruno",
-      "stato": "PAGATA",
-      "id": 17
-    },
-    {
-      "data": "",
-      "importo": "",
-      "numero": "",
-      "nomeCliente": "BrunoStano",
-      "stato": "",
-      "id": 18
-    },
-    {
-      "data": "",
-      "importo": "",
-      "numero": "",
-      "nomeCliente": "Bruno Stano",
-      "stato": "",
-      "id": 19
     }
   ]
 }
