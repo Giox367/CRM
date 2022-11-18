@@ -8,12 +8,10 @@ import { InvoiceSrvService } from './invoice-srv.service';
   styleUrls: ['./invoices.page.css'],
 })
 export class InvoicesPage implements OnInit {
-  invoices!: Invoice[];
-
-  constructor(private invoiceSrv: InvoiceSrvService) {}
+  constructor(public invoiceSrv: InvoiceSrvService) {}
 
   ngOnInit(): void {
-    this.invoiceSrv.getInvoices().subscribe((data) => (this.invoices = data));
+    this.invoiceSrv.getInvoices().subscribe((data) => (this.invoiceSrv.invoices = data));
     console.log();
   }
 }
