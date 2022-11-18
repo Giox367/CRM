@@ -4,20 +4,18 @@ import { User } from 'src/app/interfaces/user';
 import { environment } from 'src/environments/environment';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class UsersService {
   users: User[] = [];
 
   constructor(private http: HttpClient) {}
 
-    getUser() {
-      return this.http.get<User>(environment.urlAPI + 'users');
-    }
+  getUser() {
+    return this.http.get<User>(environment.urlAPI + 'users');
+  }
 
-    deleteUser(id: Number) {
-      return this.http.delete<User>(environment.urlAPI + 'users/' + id);
-    }
-
-
+  deleteUser(id: number) {
+    return this.http.delete<User>(environment.urlAPI + 'users/' + id);
+  }
 }

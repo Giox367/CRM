@@ -7,6 +7,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root',
 })
 export class InvoiceSrvService {
+  id: any;
   invoices: Invoice[] = [];
   constructor(private http: HttpClient) {}
   getInvoices() {
@@ -15,5 +16,13 @@ export class InvoiceSrvService {
 
   addInvoice(invoice: Invoice) {
     return this.http.post(environment.urlAPI + 'invoices', invoice);
+  }
+
+  deleteInvoice(id: number) {
+    return this.http.delete(environment.urlAPI + 'invoices/' + id);
+  }
+
+  editInvoice(body: any, id: number) {
+    return this.http.put(environment.urlAPI + 'invoices/' + id, body);
   }
 }

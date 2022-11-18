@@ -22,6 +22,7 @@ export class EditClientComponent implements OnInit {
       .getClients()
       .pipe(switchMap((obj: any) => obj))
       .subscribe((obj: any) => this.client.push(obj));
+    this.clientService.getClient(1).subscribe((obj: any) => (this.clientEdit = obj));
   }
 
   onSubmit() {

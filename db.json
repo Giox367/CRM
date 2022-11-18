@@ -10,15 +10,6 @@
       "id": 7
     },
     {
-      "email": "awdaw@dasd.ca",
-      "password": "$2a$10$qvwaKQQhJAdHFBZsM6tGRelLnZWLrOMtPA23VyWbCWqTPs10dkeFW",
-      "firstname": "si ",
-      "lastname": "cancellano",
-      "age": "2",
-      "roles": "",
-      "id": 9
-    },
-    {
       "email": "bruno@stano.it",
       "password": "$2a$10$vDq7osA3w7DfTGlcZkba.OlDeP2st6qt3gPBdpyXXb4spXsT5EmRC",
       "firstname": "Bruno",
@@ -26,6 +17,33 @@
       "age": "28",
       "roles": "",
       "id": 10
+    },
+    {
+      "email": "aras@pourbijan.it",
+      "password": "$2a$10$YHnYP5iM2p78ucpOi.FJ0u3c61wQNF.bK3YGwMH.y/hixBNbfpS62",
+      "firstname": "Aras",
+      "lastname": "Pourbijan",
+      "age": "30",
+      "roles": "",
+      "id": 11
+    },
+    {
+      "email": "luigi@indaco.it",
+      "password": "$2a$10$icSWds6.kSOixVALUvBuceXwsw7OJ944Nim.M/X352hIATDlMOoWy",
+      "firstname": "Luigi",
+      "lastname": "Indaco",
+      "age": "26",
+      "roles": "",
+      "id": 12
+    },
+    {
+      "email": "giovanni@urso.it",
+      "password": "$2a$10$/QuMQHFCvJZTG.6LZmU6luIvDNZNdg5zHVN7hOGVKFUQ6sb0JP8zW",
+      "firstname": "Giovanni",
+      "lastname": "Urso",
+      "age": "28",
+      "roles": "",
+      "id": 13
     }
   ],
   "client": [
@@ -53,50 +71,27 @@
       "id": 1
     },
     {
-      "ragioneSociale": "kk",
-      "partitaIva": "",
-      "tipoCliente": "",
-      "email": "",
-      "pec": "",
-      "telefono": "",
-      "nomeContatto": "",
-      "cognomeContatto": "",
-      "telefonoContatto": "",
-      "emailContatto": "",
+      "ragioneSociale": "Bruno-Stano SPA",
+      "partitaIva": "2191291",
+      "tipoCliente": "Special",
+      "email": "bruno@stano.it",
+      "pec": "bruno@stano.it",
+      "telefono": "3898996421",
+      "nomeContatto": "Bruno",
+      "cognomeContatto": "Stano",
+      "telefonoContatto": "0831453138",
+      "emailContatto": "bruno@stano.it",
       "indirizzoSede": {
-        "via": "",
-        "civico": "",
-        "cap": "",
+        "via": "Piazza A. De Ferraris",
+        "civico": "9",
+        "cap": "72100",
         "Comune": {
-          "nome": "",
-          "provincia": ""
+          "nome": "Brindisi",
+          "provincia": "BR"
         },
-        "dataInserimento": ""
+        "dataInserimento": "2022-11-18"
       },
-      "id": 4
-    },
-    {
-      "ragioneSociale": "qweqwe",
-      "partitaIva": "",
-      "tipoCliente": "",
-      "email": "",
-      "pec": "",
-      "telefono": "",
-      "nomeContatto": "",
-      "cognomeContatto": "",
-      "telefonoContatto": "",
-      "emailContatto": "",
-      "indirizzoSede": {
-        "via": "",
-        "civico": "",
-        "cap": "",
-        "Comune": {
-          "nome": "",
-          "provincia": ""
-        },
-        "dataInserimento": ""
-      },
-      "id": 6
+      "id": 2
     }
   ],
   "invoices": [
@@ -140,14 +135,6 @@
       "dataUltimaModifica": "2021-03-24T21:32:06.375+00:00"
     },
     {
-      "data": "",
-      "importo": "",
-      "numeroFattura": "",
-      "nomeCliente": "",
-      "pagamento": "",
-      "id": 4
-    },
-    {
       "data": "2022-11-18",
       "importo": "99",
       "numeroFattura": "33",
@@ -156,36 +143,20 @@
       "id": 5
     },
     {
-      "data": "2022-11-09",
-      "importo": "500",
-      "numeroFattura": "420",
+      "data": "2022-11-18",
+      "importo": "22",
+      "numero": "2",
       "nomeCliente": "Bruno Stano",
-      "pagamento": "Pagata",
+      "stato": "PAGATA",
       "id": 6
     },
     {
-      "data": "2022-11-17",
-      "importo": "66666",
-      "numeroFattura": "",
-      "nomeCliente": "",
-      "pagamento": "",
-      "id": 7
-    },
-    {
-      "data": "2022-11-17",
-      "importo": "66666",
-      "numeroFattura": "",
-      "nomeCliente": "",
-      "pagamento": "",
-      "id": 8
-    },
-    {
       "data": "",
-      "importo": "9000000",
-      "numeroFattura": "",
-      "nomeCliente": "",
-      "pagamento": "",
-      "id": 9
+      "importo": "2112",
+      "numero": "1",
+      "nomeCliente": "Dimitri Lazuka",
+      "stato": "",
+      "id": 7
     }
   ]
 }
